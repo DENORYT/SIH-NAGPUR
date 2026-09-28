@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadowLink - Final Project Report</title>
+    <style>
+        :root {
+            --primary: #1a365d;
+            --secondary: #2b6cb0;
+            --text-main: #2d3748;
+            --bg-light: #f7fafc;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.7;
+            color: var(--text-main);
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: var(--primary);
+        }
+        /* Cover Page */
+        .cover-page {
+            text-align: center;
+            padding: 100px 20px;
+            page-break-after: always;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .cover-page h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .cover-page h2 {
+            font-size: 1.5rem;
+            color: var(--secondary);
+            font-weight: 300;
+            margin-bottom: 50px;
+        }
+        .cover-page .metadata {
+            font-family: 'Helvetica Neue', sans-serif;
+            font-size: 1.1rem;
+            color: #718096;
+        }
+        
+        /* Layout Elements */
+        .page-break {
+            page-break-before: always;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section-title {
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 10px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        
+        /* Content Styling */
+        p { margin-bottom: 15px; }
+        ul, ol { margin-bottom: 20px; padding-left: 25px; }
+        li { margin-bottom: 8px; }
+        
+        .highlight-box {
+            background-color: var(--bg-light);
+            border-left: 4px solid var(--secondary);
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        
+        code {
+            font-family: 'Menlo', 'Monaco', monospace;
+            background-color: #edf2f7;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.9em;
+            color: #c53030;
+        }
+        
+        pre {
+            background-color: #2d3748;
+            color: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Menlo', 'Monaco', monospace;
+            font-size: 0.9em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-family: 'Helvetica Neue', sans-serif;
+            font-size: 0.95em;
+        }
+        th, td {
+            border: 1px solid var(--border);
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: var(--bg-light);
+            color: var(--primary);
+        }
+
+        /* Print Controls */
+        .print-controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            font-family: sans-serif;
+            border: 1px solid var(--border);
+        }
+        .print-btn {
+            background-color: var(--secondary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            transition: background 0.2s;
+        }
+        .print-btn:hover { background-color: var(--primary); }
+        
+        @media print {
+            .print-controls { display: none; }
+            body { padding: 0; max-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-controls no-print">
+        <p style="margin-top:0; font-size:14px; color:#4a5568;">Click below to save this report as a PDF.</p>
+        <button class="print-btn" onclick="window.print()">Save as PDF / Print</button>
+    </div>
+
+    <!-- COVER PAGE -->
+    <div class="cover-page">
+        <h1>ShadowLink</h1>
+        <h2>Threat Actor De-Anonymization Platform</h2>
+        <div class="metadata">
+            <p><strong>Project Code:</strong> SIH 26151</p>
+            <p><strong>Category:</strong> Cybersecurity & Dark Web Intelligence</p>
+            <p><strong>Version:</strong> 1.0.0 (Hackathon Release)</p>
+            <br><br><br>
+            <p><em>Generated from Project Workspace</em></p>
+        </div>
+    </div>
+
+    <!-- EXECUTIVE SUMMARY -->
+    <div class="section page-break">
+        <h2 class="section-title">1. Executive Summary</h2>
+        <p><strong>ShadowLink</strong> is a comprehensive forensic intelligence platform designed for Law Enforcement Agencies (LEAs) to de-anonymize threat actors operating on the dark web. The core challenge in dark web investigations is the fragmentation of identity—criminals use multiple aliases, rapidly switch forums, and rotate infrastructure to evade capture.</p>
+        
+        <p>ShadowLink solves this by fusing three distinct streams of intelligence to build a unified identity graph:</p>
+        <ol>
+            <li><strong>Infrastructure Analysis:</strong> Correlating dark web (.onion) services to public internet (clearnet) infrastructure via cryptographic certificates and server misconfigurations.</li>
+            <li><strong>Cryptographic Correlation:</strong> Mapping reused PGP keys and cryptocurrency wallets across disparate personas.</li>
+            <li><strong>AI Stylometry:</strong> Using Natural Language Processing (NLP) to detect matching linguistic patterns across forums, identifying rebranded personas even when all other identifiers have been wiped.</li>
+        </ol>
+
+        <div class="highlight-box">
+            <strong>Hackathon Compliance Note:</strong> To ensure strict adherence to ethical guidelines and privacy laws, 100% of the data processed in this demo is generated via a custom synthetic data engine. No real PII or live dark web scraping is utilized in the hackathon build.
+        </div>
+    </div>
+
+    <!-- SYSTEM ARCHITECTURE -->
+    <div class="section">
+        <h2 class="section-title">2. System Architecture & Tech Stack</h2>
+        <p>The platform is designed with a modern, decoupled architecture allowing for rapid execution and visualization.</p>
+        
+        <h3>2.1 Tech Stack</h3>
+        <ul>
+            <li><strong>Backend Engine:</strong> Python, FastAPI, Uvicorn</li>
+            <li><strong>Database:</strong> SQLite (In-memory fallback for demo portability), SQLAlchemy ORM</li>
+            <li><strong>Graph Analytics:</strong> NetworkX (Python)</li>
+            <li><strong>AI / NLP:</strong> Scikit-Learn (TF-IDF, Cosine Similarity)</li>
+            <li><strong>Frontend Dashboard:</strong> HTML5, Vanilla JavaScript, Tailwind CSS (CDN)</li>
+            <li><strong>Graph Visualization:</strong> Cytoscape.js</li>
+        </ul>
+
+        <h3>2.2 Data Pipeline</h3>
+        <p>The system operates in a linear, automated pipeline upon startup:</p>
+        <pre>
+[Synthetic Data Generator] 
+       ↓ 
+[SQLite Database Ingestion] 
+       ↓ 
+[Module 1: Infra Matcher] → [Module 2: Identity Graph] → [Module 3: Stylometry]
+       ↓ 
+[Trust Link Relationship Table]
+       ↓ 
+[FastAPI REST Endpoints]
+       ↓
+[Cytoscape.js Analyst Dashboard]
+        </pre>
+    </div>
+
+    <!-- CORE MODULES -->
+    <div class="section page-break">
+        <h2 class="section-title">3. The Three Intelligence Engines</h2>
+        
+        <h3>3.1 Infrastructure Matcher</h3>
+        <p>Many dark web operators misconfigure their hosting setups. This module scans a database of `.onion` sites and matches them against public IP addresses. It searches for:</p>
+        <ul>
+            <li><strong>SSL_CERT_MATCH:</strong> Identical TLS/SSL certificate hashes exposed on both the Tor network and the clearnet.</li>
+            <li><strong>SERVER_BANNER:</strong> Highly specific HTTP server headers (e.g., custom Nginx versions + OS fingerprints) that uniquely identify a host.</li>
+        </ul>
+
+        <h3>3.2 Cryptographic Identity Graph</h3>
+        <p>Using <code>NetworkX</code>, this engine scans the database for hard identifiers. If Actor A and Actor B both post a message containing the same Bitcoin Address (<code>SAME_WALLET</code>) or PGP Public Key Fingerprint (<code>SAME_PGP</code>), the engine automatically draws a high-confidence edge between the two nodes in the database.</p>
+
+        <h3>3.3 AI Stylometry (Linguistic Analysis)</h3>
+        <p>Criminals frequently "rebrand" by abandoning old accounts and creating new ones. While they can change their username and wallet, they cannot easily change their grammatical habits. This module uses:</p>
+        <ul>
+            <li><strong>TF-IDF Vectorization:</strong> Converts forum posts into mathematical arrays based on word frequencies.</li>
+            <li><strong>Cosine Similarity:</strong> Calculates the geometric angle between text vectors. Matches exceeding a threshold (0.52) are flagged as potential rebranded aliases.</li>
+            <li><strong>Human-in-the-loop:</strong> Matches are flagged as <code>ai_suggested = TRUE</code>. They must be manually verified by an analyst via the frontend dashboard before being treated as factual evidence.</li>
+        </ul>
+    </div>
+
+    <!-- DATABASE SCHEMA -->
+    <div class="section">
+        <h2 class="section-title">4. Database Schema Design</h2>
+        <p>The relational database is built on 6 core tables to capture the complex web of threat actor identities:</p>
+        <table>
+            <tr>
+                <th>Table Name</th>
+                <th>Purpose</th>
+            </tr>
+            <tr>
+                <td><code>actors</code></td>
+                <td>The root entity representing the suspected human operator. Tracks risk category and confidence scores.</td>
+            </tr>
+            <tr>
+                <td><code>aliases</code></td>
+                <td>The specific usernames used across different platforms (e.g., 'ghost77' on Nighthawk Market).</td>
+            </tr>
+            <tr>
+                <td><code>identifiers</code></td>
+                <td>Stores PGP fingerprints and Crypto Wallets linked to specific aliases.</td>
+            </tr>
+            <tr>
+                <td><code>posts</code></td>
+                <td>The raw text content scraped from forums, used for Stylometry analysis.</td>
+            </tr>
+            <tr>
+                <td><code>infra_leaks</code></td>
+                <td>Records of matched Tor to Clearnet vulnerabilities.</td>
+            </tr>
+            <tr>
+                <td><code>trust_links</code></td>
+                <td>The central relationships table containing edges (SAME_PGP, STYLE_MATCH, VOUCHED_FOR).</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- PROJECT DELIVERABLES -->
+    <div class="section page-break">
+        <h2 class="section-title">5. Project Deliverables & File Manifest</h2>
+        <p>The following systems were successfully coded and delivered during the hackathon:</p>
+        
+        <ul>
+            <li><code>backend/app/seed/generate_seed.py</code>: The ethical synthetic data engine utilizing the <code>Faker</code> library to generate ground-truth test data.</li>
+            <li><code>backend/app/modules/</code>: Contains the logic for the three core analytics engines (Infra, Identity, Stylometry).</li>
+            <li><code>backend/app/api/routes.py</code>: The FastAPI controllers exposing data to the frontend, including the <code>/export</code> endpoint for court-ready dossiers.</li>
+            <li><code>backend/app/main.py</code>: The application entry point ensuring database provisioning on cold boots.</li>
+            <li><code>frontend/index.html & app.js</code>: The zero-build, client-side dashboard featuring real-time Cytoscape.js visualizations.</li>
+        </ul>
+    </div>
+
+    <!-- CONCLUSION -->
+    <div class="section">
+        <h2 class="section-title">6. Conclusion</h2>
+        <p>ShadowLink successfully demonstrates how fusing network engineering, cryptography, and artificial intelligence can pierce the veil of dark web anonymity. By providing analysts with an interactive, mathematically backed identity graph, ShadowLink reduces investigation times from months to minutes.</p>
+        <p style="text-align: center; margin-top: 40px; font-style: italic; color: #718096;">
+            -- End of Report --
+        </p>
+    </div>
+
+</body>
+</html>

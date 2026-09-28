@@ -1,0 +1,47 @@
+[
+  {
+    "ip": "185.220.101.42",
+    "domain": "securehost-cdn.net",
+    "ssl_fingerprint": "B1:05:C9:8D:3C:1E:67:2E:E9:FB:53:5A:6B:1D:70:20:44:6D:10:31",
+    "server_banner": "nginx/1.24.0 (Ubuntu)",
+    "geo": "Netherlands",
+    "lat": 52.3676,
+    "lng": 4.9041
+  },
+  {
+    "ip": "91.218.67.14",
+    "domain": "cloud-relay-eu.com",
+    "ssl_fingerprint": "12:DD:07:0D:8C:67:BF:7E:2A:F7:F8:36:47:54:C1:B1:38:81:9E:B0",
+    "server_banner": "Apache/2.4.57 (Debian)",
+    "geo": "Germany",
+    "lat": 51.1657,
+    "lng": 10.4515
+  },
+  {
+    "ip": "103.28.52.93",
+    "domain": "asialink-hosting.io",
+    "ssl_fingerprint": "4F:EA:0D:C7:6E:A9:DA:DE:3A:A7:A8:EA:9E:4E:27:12:D6:12:E4:2E",
+    "server_banner": "LiteSpeed/6.0.12",
+    "geo": "Singapore",
+    "lat": 1.3521,
+    "lng": 103.8198
+  },
+  {
+    "ip": "45.134.225.8",
+    "domain": "nordic-vps.se",
+    "ssl_fingerprint": "D1:0F:90:73:ED:98:44:35:9C:E4:97:2F:DA:B2:81:95:49:8B:64:BD",
+    "server_banner": "openresty/1.21.4.1",
+    "geo": "Sweden",
+    "lat": 60.1282,
+    "lng": 18.6435
+  },
+  {
+    "ip": "198.51.100.77",
+    "domain": "freedomhost-us.org",
+    "ssl_fingerprint": "93:A7:B0:60:21:A4:B3:89:71:49:A4:E9:64:14:2F:72:BD:7E:E1:6B",
+    "server_banner": "nginx/1.25.3",
+    "geo": "United States",
+    "lat": 37.0902,
+    "lng": -95.7129
+  }
+]

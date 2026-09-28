@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadowLink | Enterprise Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            500: '#14b8a6',
+                            900: '#134e4a',
+                            950: '#042f2e',
+                        },
+                        surface: '#09090b', // zinc-950
+                        panel: '#18181b',   // zinc-900
+                        border: '#27272a',  // zinc-800
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.26.0/cytoscape.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <link rel="stylesheet" href="style.css?v=7">
+</head>
+<body class="bg-surface text-zinc-300 font-sans flex h-screen overflow-hidden antialiased selection:bg-brand-500 selection:text-white bg-grid-pattern">
+
+    <!-- Boot Splash Screen -->
+    <div id="boot-screen" class="fixed inset-0 z-[100] bg-surface flex flex-col justify-center items-center font-mono transition-opacity duration-700">
+        <svg class="w-20 h-20 text-brand-500 mb-6 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 2l-9 4v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V6l-9-4z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 22V2M12 2v20"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12h18"></path>
+        </svg>
+        <h1 class="text-3xl font-bold tracking-widest text-zinc-100 uppercase shadow-brand">ShadowLink <span class="text-brand-500 font-light">OS</span></h1>
+        <div class="mt-8 text-xs text-brand-400 h-32 overflow-hidden text-left w-96 leading-relaxed relative scanline-effect" id="boot-text">
+            <!-- Populated by JS -->
+        </div>
+    </div>
+
+    <!-- Live Threat Ticker -->
+    <div class="fixed top-0 left-0 w-full h-8 bg-brand-500/10 border-b border-brand-500/20 z-50 overflow-hidden flex items-center font-mono text-[10px] text-brand-400 tracking-widest backdrop-blur-md">
+        <div class="animate-ticker">
+            <span class="mr-12"><span class="text-white font-bold">[LIVE]</span> 14 New PGP Keys intercepted on AlphaBay</span>
+            <span class="mr-12"><span class="text-rose-400 font-bold">[ALERT]</span> High-risk actor 'venom23' linked to new infrastructure in Germany</span>
+            <span class="mr-12"><span class="text-emerald-400 font-bold">[TRACE]</span> Stylometry match confirmed across 3 disparate forum IDs (91.6% conf)</span>
+            <span class="mr-12"><span class="text-white font-bold">[SYSTEM]</span> Graph modules synchronized. 18 nodes active.</span>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-panel flex flex-col border-r border-border relative z-20 shadow-2xl mt-8">
+        <div class="p-6 border-b border-border">
+            <div class="flex items-center gap-3 mb-1">
+                <div class="w-2 h-2 bg-brand-500 rounded-full animate-pulse shadow-[0_0_8px_rgba(20,184,166,0.8)]"></div>
+                <h1 class="text-xl font-semibold tracking-wide text-zinc-100">SHADOW<span class="text-zinc-500">LINK</span></h1>
+            </div>
+            <p class="text-[10px] text-zinc-500 uppercase tracking-widest font-medium ml-5">Global Threat Intel</p>
+        </div>
+        <nav class="flex-1 px-4 py-6 space-y-2">
+            <p class="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider mb-4 px-2">Modules</p>
+            <button onclick="switchTab('dashboard')" class="w-full text-left px-3 py-2.5 rounded-md hover:bg-zinc-800/50 bg-zinc-800/80 text-brand-500 font-medium transition-all duration-200 text-sm flex items-center gap-3 border border-zinc-700/50" id="tab-dashboard">
+                <svg class="w-4 h-4 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg> Command Center
+            </button>
+            <button onclick="switchTab('graph')" class="w-full text-left px-3 py-2.5 rounded-md hover:bg-zinc-800/50 font-medium transition-all duration-200 text-sm text-zinc-400 flex items-center gap-3" id="tab-graph">
+                <svg class="w-4 h-4 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg> Identity Graph
+            </button>
+            <button onclick="switchTab('leaks')" class="w-full text-left px-3 py-2.5 rounded-md hover:bg-zinc-800/50 font-medium transition-all duration-200 text-sm text-zinc-400 flex items-center gap-3" id="tab-leaks">
+                <svg class="w-4 h-4 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Infra Mapping
+            </button>
+            <button onclick="switchTab('stylometry')" class="w-full text-left px-3 py-2.5 rounded-md hover:bg-zinc-800/50 font-medium transition-all duration-200 text-sm text-zinc-400 flex items-center gap-3" id="tab-stylometry">
+                <svg class="w-4 h-4 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg> NLP Profiler
+            </button>
+        </nav>
+        <div class="p-4 border-t border-border">
+            <div class="bg-brand-950/30 border border-brand-900/50 rounded p-3">
+                <p class="text-[10px] text-brand-500 uppercase tracking-widest font-semibold mb-1">Status: Operational</p>
+                <p class="text-xs text-zinc-400">SIH 26151 Demo Engine</p>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-8 relative z-10 flex flex-col mt-8" id="main-content">
+        
+        <!-- Dashboard -->
+        <div id="view-dashboard" class="max-w-6xl mx-auto pb-12 w-full flex-1">
+            <header class="mb-10">
+                <h2 class="text-2xl font-semibold text-zinc-100 tracking-tight">System Overview</h2>
+                <p class="text-sm text-zinc-500 mt-1">Real-time threat actor de-anonymization metrics.</p>
+            </header>
+            
+            <div class="grid grid-cols-4 gap-6 mb-10">
+                <div class="bg-panel border border-border p-6 rounded-lg shadow-sm">
+                    <div class="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider mb-3">Tracked Actors</div>
+                    <div class="text-4xl font-mono font-medium text-zinc-100" id="stat-actors">-</div>
+                </div>
+                <div class="bg-panel border border-border p-6 rounded-lg shadow-sm">
+                    <div class="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider mb-3">Infra Leaks</div>
+                    <div class="text-4xl font-mono font-medium text-brand-500" id="stat-leaks">-</div>
+                </div>
+                <div class="bg-panel border border-border p-6 rounded-lg shadow-sm">
+                    <div class="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider mb-3">Crypto Links</div>
+                    <div class="text-4xl font-mono font-medium text-emerald-500" id="stat-crypto">-</div>
+                </div>
+                <div class="bg-panel border border-border p-6 rounded-lg shadow-sm">
+                    <div class="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider mb-3">Stylometry Matches</div>
+                    <div class="text-4xl font-mono font-medium text-indigo-400" id="stat-style">-</div>
+                </div>
+            </div>
+            
+            <div class="bg-panel rounded-lg border border-border overflow-hidden shadow-sm">
+                <div class="px-6 py-4 border-b border-border bg-zinc-900/50 flex justify-between items-center">
+                    <h3 class="text-sm font-semibold text-zinc-200">High-Priority Targets</h3>
+                    <button class="text-xs text-brand-500 hover:text-brand-400 font-medium transition-colors">Export Report</button>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-sm">
+                        <thead class="bg-zinc-900/30">
+                            <tr>
+                                <th class="px-6 py-3 font-medium text-zinc-500 text-xs uppercase tracking-wider">Primary Handle</th>
+                                <th class="px-6 py-3 font-medium text-zinc-500 text-xs uppercase tracking-wider">Risk Profile</th>
+                                <th class="px-6 py-3 font-medium text-zinc-500 text-xs uppercase tracking-wider">Confidence</th>
+                                <th class="px-6 py-3 font-medium text-zinc-500 text-xs uppercase tracking-wider">Evidence Nodes</th>
+                                <th class="px-6 py-3 font-medium text-zinc-500 text-xs uppercase tracking-wider text-right">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="actor-table-body" class="divide-y divide-border">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Graph -->
+        <div id="view-graph" class="hidden flex-1 flex-col max-w-full w-full">
+            <header class="mb-6 flex justify-between items-end">
+                <div>
+                    <h2 class="text-2xl font-semibold text-zinc-100 tracking-tight">Identity Graph</h2>
+                    <p class="text-sm text-zinc-500 mt-1">Visualizing cross-persona links via shared cryptographic keys, wallets, and stylometry.</p>
+                </div>
+            </header>
+            <div class="bg-panel flex-1 rounded-lg border border-border relative overflow-hidden shadow-sm min-h-[600px]">
+                <div id="cy" class="absolute inset-0"></div>
+                <div class="absolute bottom-6 right-6 bg-surface/90 backdrop-blur border border-border p-5 rounded-lg text-xs shadow-xl z-20 min-w-[200px]">
+                    <h4 class="font-semibold mb-3 text-zinc-300 uppercase tracking-wider">Node Classification</h4>
+                    <div class="space-y-2.5">
+                        <div class="flex items-center text-zinc-400"><span class="w-2.5 h-2.5 bg-rose-500 rounded-sm mr-3"></span> Arms Dealer</div>
+                        <div class="flex items-center text-zinc-400"><span class="w-2.5 h-2.5 bg-emerald-500 rounded-sm mr-3"></span> Drug Trafficker</div>
+                        <div class="flex items-center text-zinc-400"><span class="w-2.5 h-2.5 bg-blue-500 rounded-sm mr-3"></span> Data Broker</div>
+                        <div class="flex items-center text-zinc-400"><span class="w-2.5 h-2.5 bg-zinc-500 rounded-sm mr-3"></span> Unknown</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Leaks -->
+        <div id="view-leaks" class="hidden max-w-6xl mx-auto flex-1 w-full flex flex-col pb-8">
+            <header class="mb-6">
+                <h2 class="text-2xl font-semibold text-zinc-100 tracking-tight">Infrastructure Leaks</h2>
+                <p class="text-sm text-zinc-500 mt-1">Geospatial mapping of unmasked .onion services to clearnet IPs.</p>
+            </header>
+            <div class="bg-panel w-full h-96 mb-6 rounded-lg overflow-hidden relative border border-border shadow-sm">
+                <div id="map" class="w-full h-full absolute inset-0 z-10"></div>
+            </div>
+            <div class="bg-panel rounded-lg border border-border overflow-auto shadow-sm flex-1">
+                <table class="w-full text-left text-sm">
+                    <thead class="bg-zinc-900/50 sticky top-0 z-20">
+                        <tr>
+                            <th class="px-6 py-4 font-medium text-zinc-500 text-xs uppercase tracking-wider">Match Vector</th>
+                            <th class="px-6 py-4 font-medium text-zinc-500 text-xs uppercase tracking-wider">Onion Service</th>
+                            <th class="px-6 py-4 font-medium text-zinc-500 text-xs uppercase tracking-wider">Clearnet Target</th>
+                            <th class="px-6 py-4 font-medium text-zinc-500 text-xs uppercase tracking-wider">Confidence</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaks-table-body" class="divide-y divide-border">
+                        <!-- Populated by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Stylometry -->
+        <div id="view-stylometry" class="hidden max-w-5xl mx-auto pb-12 w-full">
+            <header class="mb-8">
+                <h2 class="text-2xl font-semibold text-zinc-100 tracking-tight">NLP Profiler (XAI)</h2>
+                <p class="text-sm text-zinc-500 mt-1">Review AI-suggested stylistic matches. Human verification required.</p>
+            </header>
+            <div class="space-y-4" id="stylometry-container">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="actor-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center z-50 p-4 transition-opacity">
+        <div class="bg-panel border border-border rounded-xl shadow-2xl max-w-5xl w-full max-h-[90vh] flex flex-col overflow-hidden">
+            <div class="px-6 py-5 border-b border-border flex justify-between items-center bg-zinc-900/50">
+                <div class="flex items-center gap-3">
+                    <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+                    <h2 class="text-lg font-semibold text-zinc-100 tracking-tight" id="modal-title">Actor Profile</h2>
+                </div>
+                <button onclick="closeModal()" class="text-zinc-500 hover:text-white transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="p-6 overflow-y-auto flex-1 bg-surface">
+                
+                <!-- AI Briefing Section -->
+                <div class="mb-8 bg-zinc-900/50 border border-brand-500/30 rounded-lg p-5 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-1 h-full bg-brand-500"></div>
+                    <h3 class="text-[11px] font-semibold text-brand-400 uppercase tracking-widest mb-3 flex items-center gap-2">
+                        <svg class="w-4 h-4 animate-spin-slow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+                        Generative AI Threat Briefing
+                    </h3>
+                    <div id="ai-briefing-content" class="text-sm text-zinc-300 leading-relaxed font-mono min-h-[60px]">
+                        <span class="animate-pulse text-zinc-500">Generating intelligence summary...</span>
+                    </div>
+                </div>
+
+                <div id="modal-content">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shodan Modal -->
+    <div id="shodan-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center z-50 p-4 transition-opacity">
+        <div class="bg-panel border border-brand-500/50 rounded-xl shadow-[0_0_30px_rgba(20,184,166,0.15)] max-w-2xl w-full max-h-[90vh] flex flex-col overflow-hidden">
+            <div class="px-6 py-4 border-b border-border flex justify-between items-center bg-zinc-900/80">
+                <div class="flex items-center gap-3">
+                    <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+                    <h2 class="text-lg font-semibold text-zinc-100 tracking-tight">Live OSINT: Shodan Scan</h2>
+                </div>
+                <button onclick="document.getElementById('shodan-modal').classList.add('hidden')" class="text-zinc-500 hover:text-white transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="p-6 overflow-y-auto flex-1 bg-surface" id="shodan-content">
+            </div>
+        </div>
+    </div>
+
+    <!-- Crypto Modal -->
+    <div id="crypto-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center z-50 p-4 transition-opacity">
+        <div class="bg-panel border border-emerald-500/50 rounded-xl shadow-[0_0_30px_rgba(16,185,129,0.15)] max-w-2xl w-full max-h-[90vh] flex flex-col overflow-hidden">
+            <div class="px-6 py-4 border-b border-border flex justify-between items-center bg-zinc-900/80">
+                <div class="flex items-center gap-3">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    <h2 class="text-lg font-semibold text-zinc-100 tracking-tight">Live Blockchain Trace: Etherscan</h2>
+                </div>
+                <button onclick="document.getElementById('crypto-modal').classList.add('hidden')" class="text-zinc-500 hover:text-white transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="p-6 overflow-y-auto flex-1 bg-surface" id="crypto-content">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js?v=11"></script>
+</body>
+</html>

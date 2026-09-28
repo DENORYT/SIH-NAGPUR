@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+psycopg2-binary
+sqlalchemy
+alembic
+networkx
+scikit-learn
+faker
+python-dotenv
+pyjwt
+passlib[bcrypt]

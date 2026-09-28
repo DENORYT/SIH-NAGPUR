@@ -1,0 +1,3667 @@
+{
+  "metadata": {
+    "seed": 26151,
+    "generated_at": "2026-09-28T06:09:42.976694+00:00",
+    "disclaimer": "SYNTHETIC DATA ONLY — all actors, keys, wallets are fictional",
+    "counts": {
+      "actors": 18,
+      "aliases": 53,
+      "identifiers": 98,
+      "posts": 301,
+      "onion_services": 5
+    }
+  },
+  "actors": [
+    {
+      "id": "0264e794-80d4-45a5-90f8-3d102e3fe039",
+      "primary_handle": "spectre55",
+      "first_seen": "2022-01-11T06:55:57+00:00",
+      "last_seen": "2024-09-10T22:36:31+00:00",
+      "confidence_score": 50.38,
+      "risk_category": "DATA",
+      "style_template": "unique",
+      "notes": "Synthetic actor #1 — Foot world commercial travel something use.",
+      "aliases": [
+        {
+          "id": "a2a2af07-4ddb-4631-b891-d95d8b154e8c",
+          "handle": "spectre55",
+          "platform": "SilkRoute2",
+          "active_from": "2022-04-28T18:59:29+00:00",
+          "active_to": "2024-04-14T10:44:15+00:00",
+          "identifiers": [
+            {
+              "id": "1221d51b-64df-4b1a-8af0-3e3e67b4958c",
+              "type": "WALLET_BTC",
+              "value": "bc1q3bgfnn5mqvkenex1h27jtdr3swc7iywnib8cas",
+              "first_seen": "2022-04-28T18:59:29+00:00"
+            },
+            {
+              "id": "eeada4bf-4c54-4762-a02f-c0b3df47db15",
+              "type": "EMAIL_HASH",
+              "value": "200e1f2cd43b101b2d48dee7d04096149bc8046bddbd5e6db28ea99155befce7",
+              "first_seen": "2022-04-28T18:59:29+00:00"
+            },
+            {
+              "id": "7dcd0fea-c321-4466-9a4b-bf1e50bcd104",
+              "type": "PGP_KEY",
+              "value": "892CA6BB5FB81686AF223A6ED91C79B8387ABA1D",
+              "first_seen": "2022-01-11T06:55:57+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "a6f25788-5bdb-4595-a5af-f42a33cc3202",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-05-30T07:24:36+00:00",
+              "raw_text": "Yet military beyond little my ever let cause official knowledge.",
+              "category": "DATA"
+            },
+            {
+              "id": "c4404040-c36c-45c6-973d-9edcc71f88e6",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-03-15T10:23:39+00:00",
+              "raw_text": "Reason employee station.",
+              "category": "DATA"
+            },
+            {
+              "id": "49c2b941-ecc4-4905-b8c1-2051c8cf238d",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-07-16T11:44:03+00:00",
+              "raw_text": "Debate safe generation civil professor why news boy performance clear both ago.",
+              "category": "DATA"
+            },
+            {
+              "id": "d8b44faa-23b2-4b86-8785-6b6f46b56ffd",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-03-07T15:50:37+00:00",
+              "raw_text": "Police before represent lawyer effect behind practice action would main thank near.",
+              "category": "DATA"
+            },
+            {
+              "id": "321ee7e1-8cd6-4dd7-a58b-66e51905b072",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-06-13T08:14:14+00:00",
+              "raw_text": "Receive couple media mouth alone public practice certain.",
+              "category": "DATA"
+            },
+            {
+              "id": "d56f48f7-5b3a-4f02-98a1-888891128c57",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-10-17T14:41:31+00:00",
+              "raw_text": "Always pattern past professor note actually heavy hot industry explain production particularly society positive detail cell phone oil price team.",
+              "category": "DATA"
+            }
+          ]
+        },
+        {
+          "id": "80d68aa5-3e09-41df-af1e-ba85953c1e7a",
+          "handle": "reaper42",
+          "platform": "VaultBazaar",
+          "active_from": "2023-04-22T00:32:02+00:00",
+          "active_to": "2024-07-28T04:23:21+00:00",
+          "identifiers": [
+            {
+              "id": "6f4f8c03-9a8e-4357-95d7-d1db70c8617c",
+              "type": "WALLET_BTC",
+              "value": "bc1qd4sir8nn2len6pqoqb9dytpyf7isvex87040yw",
+              "first_seen": "2023-04-22T00:32:02+00:00"
+            },
+            {
+              "id": "5d9a8895-adab-4119-8bc8-56a311625f43",
+              "type": "PGP_KEY",
+              "value": "DCF1C17ED2421F1F26EDF53063B8CE185D763A13",
+              "first_seen": "2023-04-22T00:32:02+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "041326f7-bcdc-4ff1-9820-8316fc9626a6",
+              "platform": "VaultBazaar",
+              "timestamp": "2025-04-06T01:07:58+00:00",
+              "raw_text": "Receive couple media mouth alone public practice certain.",
+              "category": "DATA"
+            },
+            {
+              "id": "9fa4ae3d-7bf9-4d28-9cd7-b3b1fe438c3d",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-12-11T13:26:28+00:00",
+              "raw_text": "Statement exist lot garden line camera data stock my.",
+              "category": "DATA"
+            },
+            {
+              "id": "85f4c17d-1979-4105-a258-f2f4af53dbca",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-09-24T01:33:01+00:00",
+              "raw_text": "Statement exist lot garden line camera data stock my.",
+              "category": "DATA"
+            },
+            {
+              "id": "12a28203-b416-49e4-8440-40987f43ed6a",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-04-21T01:42:20+00:00",
+              "raw_text": "Agent language whether something whom interest necessary though allow everything.",
+              "category": "DATA"
+            },
+            {
+              "id": "63fd6edb-05fa-4292-867e-1ff43749153f",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-05-15T14:33:55+00:00",
+              "raw_text": "Cup people other I today yet.",
+              "category": "DATA"
+            },
+            {
+              "id": "cce4724e-86ae-4405-953a-84a777c52542",
+              "platform": "VaultBazaar",
+              "timestamp": "2025-06-28T09:48:40+00:00",
+              "raw_text": "Sell certainly push grow pressure east account area base.",
+              "category": "DATA"
+            },
+            {
+              "id": "1e3a3da3-f899-424d-b8a4-a3893cb9881f",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-02-19T15:26:59+00:00",
+              "raw_text": "Another analysis choose skill however simple ground.",
+              "category": "DATA"
+            }
+          ]
+        },
+        {
+          "id": "d73bdbb0-968a-40e9-8ee3-59d249d18af0",
+          "handle": "blade11",
+          "platform": "AgoraX",
+          "active_from": "2023-04-28T22:40:34+00:00",
+          "active_to": "2025-12-08T08:57:11+00:00",
+          "identifiers": [
+            {
+              "id": "e1480d2c-a683-4110-9572-1b83fff856b8",
+              "type": "PGP_KEY",
+              "value": "1ED1DD040A3A8218CE97B58D52053E97196E8716",
+              "first_seen": "2023-04-28T22:40:34+00:00"
+            },
+            {
+              "id": "ed099679-a943-4c6c-8b3d-a8be34701c04",
+              "type": "WALLET_BTC",
+              "value": "bc1qplhnw6okfyyxzrb43rj0dzg13mee49bmsg85lp",
+              "first_seen": "2023-04-28T22:40:34+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "d70fd239-9fbb-4313-a648-b60635b0f2d2",
+              "platform": "AgoraX",
+              "timestamp": "2025-10-04T04:15:33+00:00",
+              "raw_text": "Receive couple media mouth alone public practice certain.",
+              "category": "DATA"
+            },
+            {
+              "id": "d326483f-0b24-4070-914a-593d78468f15",
+              "platform": "AgoraX",
+              "timestamp": "2023-12-22T06:10:01+00:00",
+              "raw_text": "Yet military beyond little my ever let cause official knowledge.",
+              "category": "DATA"
+            },
+            {
+              "id": "8969b100-80dd-42fe-918b-9326ba8bd899",
+              "platform": "AgoraX",
+              "timestamp": "2024-03-03T16:16:47+00:00",
+              "raw_text": "Statement exist lot garden line camera data stock my.",
+              "category": "DATA"
+            }
+          ]
+        },
+        {
+          "id": "07ad05de-1db6-47a2-859b-42dcf8721c46",
+          "handle": "phantom12",
+          "platform": "Nighthawk Market",
+          "active_from": "2022-03-13T15:32:49+00:00",
+          "active_to": "2025-12-01T17:18:13+00:00",
+          "identifiers": [
+            {
+              "id": "1e16212b-9ff3-4600-9f46-acc0cecf6d57",
+              "type": "PGP_KEY",
+              "value": "90FC8892027A78FAF216464DF8A236A122CCC8A6",
+              "first_seen": "2022-03-13T15:32:49+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "078389f8-5fef-4423-a2f0-0e854e03215d",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-06-04T19:11:10+00:00",
+              "raw_text": "Statement exist lot garden line camera data stock my.",
+              "category": "DATA"
+            },
+            {
+              "id": "b5a7738b-269f-422f-93f4-9f0f7e2a972a",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-12-26T02:05:04+00:00",
+              "raw_text": "Fact in information cover cold nor.",
+              "category": "DATA"
+            },
+            {
+              "id": "b5ef376f-3769-4bc4-ac4c-e01242cc0763",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-08-09T16:14:11+00:00",
+              "raw_text": "Yet military beyond little my ever let cause official knowledge.",
+              "category": "DATA"
+            },
+            {
+              "id": "822102b9-1441-45ae-8ed5-9f0d2268b6a0",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-11-16T12:54:30+00:00",
+              "raw_text": "Receive couple media mouth alone public practice certain.",
+              "category": "DATA"
+            },
+            {
+              "id": "6f44645e-c1ef-4309-be63-32008bc30190",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-08-14T11:12:47+00:00",
+              "raw_text": "Law difference line per exactly sound happy especially side expect fight summer guy election clearly lawyer girl explain.",
+              "category": "DATA"
+            },
+            {
+              "id": "e03170dc-2bbb-4d60-962a-e119d577db42",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-06-06T09:10:03+00:00",
+              "raw_text": "Agent language whether something whom interest necessary though allow everything.",
+              "category": "DATA"
+            },
+            {
+              "id": "ae8d6f6f-abf9-4808-a348-7624c3bbef83",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-06-25T17:38:54+00:00",
+              "raw_text": "Always pattern past professor note actually heavy hot industry explain production particularly society positive detail cell phone oil price team.",
+              "category": "DATA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "580bd468-4c37-4fbe-9db3-d675b6b11cb0",
+      "primary_handle": "blade88",
+      "first_seen": "2023-04-25T05:08:19+00:00",
+      "last_seen": "2024-06-27T07:53:17+00:00",
+      "confidence_score": 80.28,
+      "risk_category": "FINANCIAL",
+      "style_template": "minimalist",
+      "notes": "Synthetic actor #2 — Safe student let buy plant.",
+      "aliases": [
+        {
+          "id": "66e7fdfe-ea15-4efa-9b48-fb4cf7054146",
+          "handle": "blade88",
+          "platform": "CipherForum",
+          "active_from": "2022-06-09T20:02:06+00:00",
+          "active_to": "2024-03-22T06:54:51+00:00",
+          "identifiers": [
+            {
+              "id": "acc67deb-58d4-48bd-a554-4e9dfd795e97",
+              "type": "PGP_KEY",
+              "value": "213675DEF2884328061DACEADE65B389984B31CB",
+              "first_seen": "2022-06-09T20:02:06+00:00"
+            },
+            {
+              "id": "0e6a3af4-4cbc-475e-8caa-c8ff3a3b94fd",
+              "type": "EMAIL_HASH",
+              "value": "00a92883d210c3a937e4210c98e6f8254bfbdf489119b4877b0b21bcd3da1b8e",
+              "first_seen": "2022-06-09T20:02:06+00:00"
+            },
+            {
+              "id": "e49fdd6f-e6a3-41f7-964c-48cf126dc303",
+              "type": "PGP_KEY",
+              "value": "892CA6BB5FB81686AF223A6ED91C79B8387ABA1D",
+              "first_seen": "2022-01-11T06:55:57+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "b7f9a3b7-e915-44cf-beb5-42597e6eb01e",
+              "platform": "CipherForum",
+              "timestamp": "2025-12-19T15:27:20+00:00",
+              "raw_text": "shipped. check pgp.",
+              "category": "FINANCIAL"
+            },
+            {
+              "id": "f1c560f2-d955-48e3-a592-8862d075a1bc",
+              "platform": "CipherForum",
+              "timestamp": "2024-08-18T02:33:09+00:00",
+              "raw_text": "product tested. legit.",
+              "category": "FINANCIAL"
+            },
+            {
+              "id": "0f36eb6d-278f-45b9-ac94-2e6b7148bbbd",
+              "platform": "CipherForum",
+              "timestamp": "2023-06-17T16:01:32+00:00",
+              "raw_text": "no FE. escrow.",
+              "category": "FINANCIAL"
+            },
+            {
+              "id": "c457fda4-a66e-4509-9f53-e45739abb67b",
+              "platform": "CipherForum",
+              "timestamp": "2025-07-29T13:16:10+00:00",
+              "raw_text": "tracking sent via pgp",
+              "category": "FINANCIAL"
+            },
+            {
+              "id": "bd548e5a-aa9c-4346-b8a0-06f1542664d5",
+              "platform": "CipherForum",
+              "timestamp": "2023-03-03T06:33:29+00:00",
+              "raw_text": "escrow only",
+              "category": "FINANCIAL"
+            },
+            {
+              "id": "d849c257-cd09-40eb-85b4-adc5be127871",
+              "platform": "CipherForum",
+              "timestamp": "2024-05-07T22:47:12+00:00",
+              "raw_text": "escrow only",
+              "category": "FINANCIAL"
+            },
+            {
+              "id": "d2edcd10-bed9-4a95-ad85-2763281d67e7",
+              "platform": "CipherForum",
+              "timestamp": "2024-11-11T10:46:11+00:00",
+              "raw_text": "2fa enabled now",
+              "category": "FINANCIAL"
+            }
+          ]
+        },
+        {
+          "id": "cd46b498-101e-45b9-ae94-036a5ff66dbb",
+          "handle": "dark_x",
+          "platform": "SilkRoute2",
+          "active_from": "2023-02-21T05:39:16+00:00",
+          "active_to": "2025-09-13T18:14:01+00:00",
+          "identifiers": [
+            {
+              "id": "57f0ff87-8fa2-480a-9651-17d76acd9c1a",
+              "type": "EMAIL_HASH",
+              "value": "330e3a634a0bdfa74ed71bdd3295eb033769500d48b56d72c125d8a3ba2276e0",
+              "first_seen": "2023-02-21T05:39:16+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "623b1614-09dc-4c37-aafb-c8f65ac43431",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-10-02T01:51:18+00:00",
+              "raw_text": "fresh batch tmrw",
+              "category": "FINANCIAL"
+            },
+            {
+              "id": "837fc4ec-d12e-408c-b678-b33e3c83b56f",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-04-03T08:56:16+00:00",
+              "raw_text": "bulk discount 5+",
+              "category": "FINANCIAL"
+            },
+            {
+              "id": "cbeeb792-877b-447d-8e2f-1d3762c4247d",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-12-08T10:00:26+00:00",
+              "raw_text": "same quality as last drop",
+              "category": "FINANCIAL"
+            },
+            {
+              "id": "662a06d7-a08a-49f3-a9eb-d7ac584f6633",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-10-12T05:05:57+00:00",
+              "raw_text": "same quality as last drop",
+              "category": "FINANCIAL"
+            },
+            {
+              "id": "43d288a9-f468-41b0-9f84-055c80b15394",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-03-31T01:09:02+00:00",
+              "raw_text": "2fa enabled now",
+              "category": "FINANCIAL"
+            },
+            {
+              "id": "b238e132-34ae-4d16-980f-f5e9174493f4",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-05-21T22:39:58+00:00",
+              "raw_text": "eu shipping. 3d edd",
+              "category": "FINANCIAL"
+            },
+            {
+              "id": "08970ba3-d27f-49ad-a121-5ad8c57cec31",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-01-15T17:59:45+00:00",
+              "raw_text": "price drop this week",
+              "category": "FINANCIAL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8708cddc-4430-43b3-954e-248706c77568",
+      "primary_handle": "ember666",
+      "first_seen": "2022-11-04T22:51:38+00:00",
+      "last_seen": "2025-12-28T11:37:57+00:00",
+      "confidence_score": 47.88,
+      "risk_category": "UNKNOWN",
+      "style_template": "unique",
+      "notes": "Synthetic actor #3 — Pull day beyond test power particular require.",
+      "aliases": [
+        {
+          "id": "e448135b-5472-46a2-a92f-e614276afa67",
+          "handle": "ember666",
+          "platform": "VaultBazaar",
+          "active_from": "2022-07-17T15:13:33+00:00",
+          "active_to": "2024-09-05T13:18:05+00:00",
+          "identifiers": [
+            {
+              "id": "6b3ef05e-d02b-4ec5-8de6-db53255bb5c5",
+              "type": "EMAIL_HASH",
+              "value": "877ce083f437c1d4d6d37c8fa9e53736593b3d2ba5519991bc9ce47d32afb80c",
+              "first_seen": "2022-07-17T15:13:33+00:00"
+            },
+            {
+              "id": "32bb3db2-8333-40dc-ba01-9ae24391820a",
+              "type": "PGP_KEY",
+              "value": "C646EC78E5ED20A0C04C0C963DF8C7B21F43D604",
+              "first_seen": "2022-07-17T15:13:33+00:00"
+            },
+            {
+              "id": "8a9f4911-1c1f-4399-8c00-3f17f18a953b",
+              "type": "WALLET_BTC",
+              "value": "bc1qyft5aeqle1ifvhyjlnlh1j2lskd8p4acjmb3al",
+              "first_seen": "2022-11-04T22:51:38+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "46ce2bb4-5ec6-4552-97d1-41d278a6a84f",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-02-03T15:13:38+00:00",
+              "raw_text": "Ahead fast couple into risk bag key third.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "4900954f-07ce-497d-96c2-12421330ab98",
+              "platform": "VaultBazaar",
+              "timestamp": "2023-03-26T05:23:53+00:00",
+              "raw_text": "Account fall color meeting administration nothing maybe once month lead study company right nice everybody also interesting individual.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "571251fd-5af8-4030-a976-3359a2d2f594",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-03-04T20:38:30+00:00",
+              "raw_text": "Bank process address seat blood at people face personal.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "bacd399a-122e-408d-90b1-ac7ef4946e38",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-03-06T18:35:50+00:00",
+              "raw_text": "Account fall color meeting administration nothing maybe once month lead study company right nice everybody also interesting individual.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "9eb84f56-85fa-4a61-bc11-ae327c66aefd",
+              "platform": "VaultBazaar",
+              "timestamp": "2023-10-03T15:07:04+00:00",
+              "raw_text": "Stage media prove PM on community charge TV.",
+              "category": "UNKNOWN"
+            }
+          ]
+        },
+        {
+          "id": "f11b2ad3-f138-41ea-a8cb-f2764bb18772",
+          "handle": "pulse_0x",
+          "platform": "AgoraX",
+          "active_from": "2022-12-28T06:05:48+00:00",
+          "active_to": "2025-02-26T12:26:06+00:00",
+          "identifiers": [
+            {
+              "id": "c69879f2-6a1e-4a49-b87d-5b0fce61cde9",
+              "type": "WALLET_BTC",
+              "value": "bc1q1wnoq9w9d3ndftl8bjb3qhtcol47lia1azkn1p",
+              "first_seen": "2022-12-28T06:05:48+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "bec015d2-c08f-4b27-ba33-41f6e8e682c4",
+              "platform": "AgoraX",
+              "timestamp": "2024-06-06T08:33:39+00:00",
+              "raw_text": "Tell range discover.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "45fe8c5a-0342-4ffa-866b-c9fdbf065ca3",
+              "platform": "AgoraX",
+              "timestamp": "2024-03-30T08:38:21+00:00",
+              "raw_text": "Point whether hit ready lawyer value whose relationship never sometimes make already recent front.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "146831e8-c125-418b-a4db-c95c597972fa",
+              "platform": "AgoraX",
+              "timestamp": "2025-08-25T01:49:45+00:00",
+              "raw_text": "Deal property key message article.",
+              "category": "UNKNOWN"
+            }
+          ]
+        },
+        {
+          "id": "28964b06-8887-4004-a9c8-7f20996aca6b",
+          "handle": "null_xo",
+          "platform": "SilkRoute2",
+          "active_from": "2022-12-29T02:22:26+00:00",
+          "active_to": "2025-11-07T17:30:46+00:00",
+          "identifiers": [
+            {
+              "id": "e9e2c79d-a80b-414b-9805-f178947ea181",
+              "type": "PGP_KEY",
+              "value": "F6B6802E14AEDF489FE705E66E3C299AD645D3E8",
+              "first_seen": "2022-12-29T02:22:26+00:00"
+            },
+            {
+              "id": "7fe9b1a9-ac41-47e9-bba0-0d60859c62f2",
+              "type": "WALLET_ETH",
+              "value": "0x28C6c06298d514Db089934071355E5743bf21d60",
+              "first_seen": "2022-12-29T02:22:26+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "a50fe0c4-b159-48b1-bf3e-a1cda51807af",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-09-20T23:07:10+00:00",
+              "raw_text": "Bank process address seat blood at people face personal.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "b648421f-022f-474e-96a7-01dfa3871368",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-07-22T20:07:09+00:00",
+              "raw_text": "Ok conference keep total since role chair better.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "ebb1559e-d69d-4ab7-b10f-cd8ae14ec6ba",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-07-10T19:32:42+00:00",
+              "raw_text": "Account fall color meeting administration nothing maybe once month lead study company right nice everybody also interesting individual.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "33879ea5-e5a9-48fd-997f-e293dd421e15",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-12-13T19:44:29+00:00",
+              "raw_text": "Big just as forward.",
+              "category": "UNKNOWN"
+            }
+          ]
+        },
+        {
+          "id": "2af6e594-4db4-41ce-8362-38fb788f08e7",
+          "handle": "dark42",
+          "platform": "CipherForum",
+          "active_from": "2023-05-19T08:07:08+00:00",
+          "active_to": "2024-07-15T18:57:49+00:00",
+          "identifiers": [
+            {
+              "id": "0aa772b3-84d3-4efc-8eff-9d622ccd9574",
+              "type": "WALLET_ETH",
+              "value": "0x75e89d5979E4f6Fba9F97c104c2F0AFB3F1dcB88",
+              "first_seen": "2023-05-19T08:07:08+00:00"
+            },
+            {
+              "id": "ce22003b-6d00-4f3c-88c4-17f21bf3b3c9",
+              "type": "EMAIL_HASH",
+              "value": "78920654af9999502b9ac44b3a9d1c49aea1d08bc2b8fa828b203ed226a3608e",
+              "first_seen": "2023-05-19T08:07:08+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "42edfb19-420a-458d-a8ee-c4a8e06df201",
+              "platform": "CipherForum",
+              "timestamp": "2024-04-23T01:19:14+00:00",
+              "raw_text": "Weight on clear.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "17030e3b-34b3-4ae5-aa93-b6a53ed0292f",
+              "platform": "CipherForum",
+              "timestamp": "2023-06-14T13:15:46+00:00",
+              "raw_text": "Arm rest rather program sport sometimes.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "db52b73d-7f52-4aa4-8d04-be2e429d5bc3",
+              "platform": "CipherForum",
+              "timestamp": "2025-02-08T05:29:42+00:00",
+              "raw_text": "Church suggest court however total despite time.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "bb732d99-3b9d-4fac-b074-a40783efc57b",
+              "platform": "CipherForum",
+              "timestamp": "2024-01-09T16:04:19+00:00",
+              "raw_text": "Church suggest court however total despite time.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "5cc79621-8e68-4c00-8060-e52036edf7a4",
+              "platform": "CipherForum",
+              "timestamp": "2023-04-19T20:41:09+00:00",
+              "raw_text": "Deal property key message article.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "d2dd147d-5dbf-47bf-a14e-0b82cbb96f80",
+              "platform": "CipherForum",
+              "timestamp": "2024-01-18T00:19:57+00:00",
+              "raw_text": "Stage media prove PM on community charge TV.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "84352861-9da0-4991-afe6-d6bba2630e1b",
+              "platform": "CipherForum",
+              "timestamp": "2023-06-09T00:40:11+00:00",
+              "raw_text": "Tell range discover.",
+              "category": "UNKNOWN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4364e7ce-e0fe-485d-96c4-02d81126c3f7",
+      "primary_handle": "venom23",
+      "first_seen": "2022-03-09T12:57:14+00:00",
+      "last_seen": "2025-05-31T04:05:34+00:00",
+      "confidence_score": 82.21,
+      "risk_category": "DATA",
+      "style_template": "verbose",
+      "notes": "Synthetic actor #4 — Effect authority suffer.",
+      "aliases": [
+        {
+          "id": "9b39168b-001e-40d4-b2b1-d2fc8ccf6919",
+          "handle": "venom23",
+          "platform": "AgoraX",
+          "active_from": "2022-03-17T03:50:50+00:00",
+          "active_to": "2025-02-22T14:41:40+00:00",
+          "identifiers": [
+            {
+              "id": "418358c0-1b4f-406c-ab8e-ff3454c69afc",
+              "type": "WALLET_ETH",
+              "value": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+              "first_seen": "2022-03-17T03:50:50+00:00"
+            },
+            {
+              "id": "3c25654f-2ef8-42e4-bf2e-39ef6414c361",
+              "type": "WALLET_BTC",
+              "value": "bc1qyft5aeqle1ifvhyjlnlh1j2lskd8p4acjmb3al",
+              "first_seen": "2022-11-04T22:51:38+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "69aeba70-ddae-40f5-8746-49b18c934a7d",
+              "platform": "AgoraX",
+              "timestamp": "2024-11-04T02:49:52+00:00",
+              "raw_text": "Having conducted extensive research into the current market dynamics, I believe pricing adjustments are warranted. Please refer to my updated listing for revised terms and conditions.",
+              "category": "DATA"
+            },
+            {
+              "id": "6f734584-148e-4697-b625-8ace056bf424",
+              "platform": "AgoraX",
+              "timestamp": "2023-09-10T20:14:28+00:00",
+              "raw_text": "I am currently restructuring my operations and will be temporarily unavailable for the next two weeks. All pending orders will be fulfilled before my hiatus begins.",
+              "category": "DATA"
+            },
+            {
+              "id": "5e90dcc4-7272-442d-9956-f46dd98ca7a4",
+              "platform": "AgoraX",
+              "timestamp": "2025-05-22T08:00:23+00:00",
+              "raw_text": "I would like to request a bulk discount on the items currently listed in category seven. My previous transaction history should speak to my reliability and trustworthiness as a buyer on this platform.",
+              "category": "DATA"
+            },
+            {
+              "id": "733be779-86c9-4068-816f-d9203ec4d5b0",
+              "platform": "AgoraX",
+              "timestamp": "2024-10-11T17:19:46+00:00",
+              "raw_text": "Please note that my shipping schedule has been updated. All orders placed before midnight UTC will be processed within forty-eight hours and shipped via standard discreet packaging.",
+              "category": "DATA"
+            },
+            {
+              "id": "b858fadd-35d1-4aac-9a78-3440a4bb63d1",
+              "platform": "AgoraX",
+              "timestamp": "2023-05-19T03:02:15+00:00",
+              "raw_text": "Having conducted extensive research into the current market dynamics, I believe pricing adjustments are warranted. Please refer to my updated listing for revised terms and conditions.",
+              "category": "DATA"
+            },
+            {
+              "id": "a60c1b16-d3ae-4f06-94ff-bc8aa47d7553",
+              "platform": "AgoraX",
+              "timestamp": "2024-10-22T17:52:49+00:00",
+              "raw_text": "I would like to request a bulk discount on the items currently listed in category seven. My previous transaction history should speak to my reliability and trustworthiness as a buyer on this platform.",
+              "category": "DATA"
+            },
+            {
+              "id": "888ca67a-7ebb-465d-9992-cec8cff35ff8",
+              "platform": "AgoraX",
+              "timestamp": "2025-03-14T21:14:28+00:00",
+              "raw_text": "The latest batch underwent rigorous quality assurance testing at three independent stages before being listed. Certificates of analysis are available upon request via encrypted channels.",
+              "category": "DATA"
+            }
+          ]
+        },
+        {
+          "id": "ded187da-96ec-4df6-bfe5-7ee4df9d8343",
+          "handle": "onyx_7",
+          "platform": "CipherForum",
+          "active_from": "2022-10-02T15:19:57+00:00",
+          "active_to": "2024-11-22T01:54:30+00:00",
+          "identifiers": [
+            {
+              "id": "d9dc72f1-ba20-454d-b16e-f41eb7aeca35",
+              "type": "WALLET_ETH",
+              "value": "0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
+              "first_seen": "2022-10-02T15:19:57+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "e85ebe6b-0421-4d94-a99c-f0bc4ef52747",
+              "platform": "CipherForum",
+              "timestamp": "2023-07-09T02:55:26+00:00",
+              "raw_text": "I appreciate the community's continued trust in my services. Rest assured that maintaining the highest standards of product quality and customer satisfaction remains my absolute top priority.",
+              "category": "DATA"
+            },
+            {
+              "id": "8df4f556-ba98-4fee-8a20-6c6ab41ac51e",
+              "platform": "CipherForum",
+              "timestamp": "2025-09-25T03:36:12+00:00",
+              "raw_text": "All communications regarding sensitive matters should be conducted exclusively through PGP-encrypted channels. My public key is available on multiple keyservers for cross-verification purposes.",
+              "category": "DATA"
+            },
+            {
+              "id": "081842db-78fb-4936-98f8-ab68f436adc7",
+              "platform": "CipherForum",
+              "timestamp": "2023-09-03T00:27:05+00:00",
+              "raw_text": "All communications regarding sensitive matters should be conducted exclusively through PGP-encrypted channels. My public key is available on multiple keyservers for cross-verification purposes.",
+              "category": "DATA"
+            },
+            {
+              "id": "5fd5dede-bf8f-476a-abdb-bff9b6831a52",
+              "platform": "CipherForum",
+              "timestamp": "2024-10-23T14:49:34+00:00",
+              "raw_text": "Having conducted extensive research into the current market dynamics, I believe pricing adjustments are warranted. Please refer to my updated listing for revised terms and conditions.",
+              "category": "DATA"
+            },
+            {
+              "id": "79a1c9be-572d-4d83-b75f-4c4eec7cb97e",
+              "platform": "CipherForum",
+              "timestamp": "2024-06-16T13:21:07+00:00",
+              "raw_text": "I am currently restructuring my operations and will be temporarily unavailable for the next two weeks. All pending orders will be fulfilled before my hiatus begins.",
+              "category": "DATA"
+            },
+            {
+              "id": "e34ff460-0268-4f63-94af-52cb4cb76c46",
+              "platform": "CipherForum",
+              "timestamp": "2023-06-28T15:55:29+00:00",
+              "raw_text": "After careful analysis of multiple vendors, I have concluded that this particular offering represents the best value proposition currently available on this marketplace.",
+              "category": "DATA"
+            },
+            {
+              "id": "0c8a3801-f454-4564-ae19-15223ad1ab3b",
+              "platform": "CipherForum",
+              "timestamp": "2025-05-06T00:03:12+00:00",
+              "raw_text": "I would strongly advise against using unverified escrow services. Always confirm that the multisig wallet address matches the one posted in the vendor's verified PGP-signed profile.",
+              "category": "DATA"
+            }
+          ]
+        },
+        {
+          "id": "79726b19-0030-4dca-9d2c-c4fab0663b11",
+          "handle": "null77",
+          "platform": "SilkRoute2",
+          "active_from": "2022-03-27T23:52:38+00:00",
+          "active_to": "2025-04-25T17:32:14+00:00",
+          "identifiers": [
+            {
+              "id": "44b63cd4-43a7-44f0-96f5-5bc1ce952780",
+              "type": "PGP_KEY",
+              "value": "ECA66D1E7971C8FF0228B008BC62218085E54911",
+              "first_seen": "2022-03-27T23:52:38+00:00"
+            },
+            {
+              "id": "b5e4ece8-31a6-433f-b296-9032d7015d69",
+              "type": "WALLET_ETH",
+              "value": "0x28C6c06298d514Db089934071355E5743bf21d60",
+              "first_seen": "2022-03-27T23:52:38+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "54cce414-dad6-4331-b45d-0e51b11599d9",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-11-27T17:06:40+00:00",
+              "raw_text": "I have been a member of this community for approximately eighteen months and have consistently maintained a perfect feedback rating across all of my transactions without exception.",
+              "category": "DATA"
+            },
+            {
+              "id": "f40f6b67-6112-4b8f-8051-003d57ff2fec",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-03-16T15:04:54+00:00",
+              "raw_text": "I have thoroughly verified the quality of this product and can confirm it meets all stated specifications. Shipping was discreet and fully tracked through the marketplace escrow system.",
+              "category": "DATA"
+            },
+            {
+              "id": "6c5a3c0d-04d0-445e-b209-a40d00b40b52",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-10-24T09:10:25+00:00",
+              "raw_text": "After careful analysis of multiple vendors, I have concluded that this particular offering represents the best value proposition currently available on this marketplace.",
+              "category": "DATA"
+            },
+            {
+              "id": "6c565e5b-d183-49eb-b61c-3de562035d03",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-08-10T14:21:28+00:00",
+              "raw_text": "The encryption protocols employed by this marketplace are commendable. I recommend all users verify PGP signatures before completing any transaction to ensure authenticity and prevent impersonation.",
+              "category": "DATA"
+            },
+            {
+              "id": "40733a0e-5a95-4310-8b2c-ac35855b8040",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-01-05T18:38:58+00:00",
+              "raw_text": "All communications regarding sensitive matters should be conducted exclusively through PGP-encrypted channels. My public key is available on multiple keyservers for cross-verification purposes.",
+              "category": "DATA"
+            },
+            {
+              "id": "392150a5-912a-4390-b93f-44e0d99c19bf",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-12-02T00:30:09+00:00",
+              "raw_text": "Please note that my shipping schedule has been updated. All orders placed before midnight UTC will be processed within forty-eight hours and shipped via standard discreet packaging.",
+              "category": "DATA"
+            },
+            {
+              "id": "03c81e94-b1cd-4f62-ad5d-9669656654cd",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-12-19T17:31:17+00:00",
+              "raw_text": "The encryption protocols employed by this marketplace are commendable. I recommend all users verify PGP signatures before completing any transaction to ensure authenticity and prevent impersonation.",
+              "category": "DATA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fc760099-19ed-4367-b112-52551d2bec3e",
+      "primary_handle": "nexus23",
+      "first_seen": "2023-10-19T22:52:57+00:00",
+      "last_seen": "2024-07-08T19:13:02+00:00",
+      "confidence_score": 85.66,
+      "risk_category": "DRUGS",
+      "style_template": "unique",
+      "notes": "Synthetic actor #5 — Positive group improve others heavy mention.",
+      "aliases": [
+        {
+          "id": "daac8861-d9c5-4c3b-b448-7252a324e9d8",
+          "handle": "nexus23",
+          "platform": "AgoraX",
+          "active_from": "2022-08-20T04:02:14+00:00",
+          "active_to": "2025-02-15T21:04:35+00:00",
+          "identifiers": [
+            {
+              "id": "ca200853-fb39-4f96-bfcc-f60a54cb014f",
+              "type": "WALLET_ETH",
+              "value": "0x75e89d5979E4f6Fba9F97c104c2F0AFB3F1dcB88",
+              "first_seen": "2022-08-20T04:02:14+00:00"
+            },
+            {
+              "id": "ebad4682-7ab3-4cc2-970b-1cf8832e93e5",
+              "type": "EMAIL_HASH",
+              "value": "51a1bcae32701204fb3b5bb8d7e6663a5a9820bca57284d4c6753f110a4ebbca",
+              "first_seen": "2022-08-20T04:02:14+00:00"
+            },
+            {
+              "id": "2530ac54-1ce1-41fa-81cd-93327e24fe42",
+              "type": "PGP_KEY",
+              "value": "2AC7197E5F7F1AB477E7EA9083EC74AB116BB686",
+              "first_seen": "2023-10-19T22:52:57+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "d3d7a2bb-264a-412d-9fcc-347a6e327b89",
+              "platform": "AgoraX",
+              "timestamp": "2025-09-14T16:01:02+00:00",
+              "raw_text": "Market respond human power feeling upon.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "beedd3fc-bd03-4051-9e2a-743635c6f67c",
+              "platform": "AgoraX",
+              "timestamp": "2023-02-16T18:35:40+00:00",
+              "raw_text": "Score hospital dog enter.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "d7c11ffd-0de2-4aa6-82a7-47fb474d0bc4",
+              "platform": "AgoraX",
+              "timestamp": "2024-06-10T00:36:07+00:00",
+              "raw_text": "Market respond human power feeling upon.",
+              "category": "DRUGS"
+            }
+          ]
+        },
+        {
+          "id": "21496fd7-53ee-40db-b813-a3bb5cd97f71",
+          "handle": "nexus42",
+          "platform": "SilkRoute2",
+          "active_from": "2022-12-29T05:18:11+00:00",
+          "active_to": "2025-03-19T21:59:13+00:00",
+          "identifiers": [
+            {
+              "id": "f0a89122-ff89-472f-9005-f4916c646b2b",
+              "type": "PGP_KEY",
+              "value": "0A3C4C361E5D7CC18C15F5657595E157416EF86E",
+              "first_seen": "2022-12-29T05:18:11+00:00"
+            },
+            {
+              "id": "4e7304f0-1020-4bab-832c-656d1d2a4c19",
+              "type": "WALLET_ETH",
+              "value": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+              "first_seen": "2022-12-29T05:18:11+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "355a965b-97c8-46e0-b918-4f3033c69b1c",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-07-07T00:20:41+00:00",
+              "raw_text": "When pass coach current free include without happen indeed less present simple follow boy conference wall cell Mrs director couple civil.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "5584c4a6-f9db-47a1-9a19-bd651fec5362",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-09-18T03:08:47+00:00",
+              "raw_text": "Environment hospital customer everyone many bed.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "bd35f48f-7432-426e-9b5b-600317496947",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-06-24T04:38:05+00:00",
+              "raw_text": "Attack decide should until important record too help seat job certain relate still.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "181755b2-6828-47b4-bebd-76a08e8b4f1a",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-10-29T20:31:17+00:00",
+              "raw_text": "When pass coach current free include without happen indeed less present simple follow boy conference wall cell Mrs director couple civil.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "714deeaa-36bc-4a9f-a38e-bc6a4e4c983e",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-07-19T07:44:39+00:00",
+              "raw_text": "Market respond human power feeling upon.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "9769b432-a7fa-4b5e-bb66-b57ae1e67288",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-02-15T10:58:02+00:00",
+              "raw_text": "Include north condition site late debate forward only computer media skin if seat series.",
+              "category": "DRUGS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14284c8c-5ec9-447c-b1d9-36dacaa19193",
+      "primary_handle": "viper99",
+      "first_seen": "2023-09-05T17:08:44+00:00",
+      "last_seen": "2025-11-29T10:32:08+00:00",
+      "confidence_score": 79.16,
+      "risk_category": "UNKNOWN",
+      "style_template": "typo_heavy",
+      "notes": "Synthetic actor #6 — Forward think but cold large debate sister relate.",
+      "aliases": [
+        {
+          "id": "38a04a36-0203-4f17-810e-23ef2eeb7ec1",
+          "handle": "viper99",
+          "platform": "SilkRoute2",
+          "active_from": "2022-09-03T07:31:29+00:00",
+          "active_to": "2025-12-29T23:37:06+00:00",
+          "identifiers": [
+            {
+              "id": "65de5b48-7974-4ad7-b3c4-afd0d65639c8",
+              "type": "EMAIL_HASH",
+              "value": "b656bafdb5ebeae86950c05d5e980455cc996e2e633791f53ac2079fef5081f7",
+              "first_seen": "2022-09-03T07:31:29+00:00"
+            },
+            {
+              "id": "0c5b277b-eeb5-4e29-a836-4acfb09f34b4",
+              "type": "WALLET_ETH",
+              "value": "0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
+              "first_seen": "2022-09-03T07:31:29+00:00"
+            },
+            {
+              "id": "4ae2da00-e453-4578-b1a0-94b1d2efa0eb",
+              "type": "PGP_KEY",
+              "value": "2AC7197E5F7F1AB477E7EA9083EC74AB116BB686",
+              "first_seen": "2023-10-19T22:52:57+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "95c0403f-06a6-4429-92d2-e3fa4d81b380",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-03-01T20:11:30+00:00",
+              "raw_text": "sendin from EU shippng takes lke 5 days max",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "1d07de6b-d10f-4f0e-830a-23c92b7ac856",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-07-01T08:39:45+00:00",
+              "raw_text": "bruv the qualiy on ths batch is insane tbh",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "e3f9b8cd-9af6-4541-9503-a1fc4933bd88",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-09-12T18:43:21+00:00",
+              "raw_text": "my reveiw is up 5 stars overal no complants",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "fc0c1346-651c-45a4-bf0b-70267822ea6a",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-01-30T22:54:44+00:00",
+              "raw_text": "can somone vouch fr this vendoor first tme here",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "d74368df-0c7b-44c9-8e16-b8617ea1fd50",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-10-24T12:23:23+00:00",
+              "raw_text": "prise is fair imo vendro is legti",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "bca8b03d-ed03-4928-a62b-7121d6208d7e",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-09-09T20:58:24+00:00",
+              "raw_text": "can somone vouch fr this vendoor first tme here",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "eff0379c-9d3c-46dc-825c-e40f903c17ff",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-03-01T06:39:12+00:00",
+              "raw_text": "yo i gt the stuf ur lokking for hmu asap",
+              "category": "UNKNOWN"
+            }
+          ]
+        },
+        {
+          "id": "f5cc2ef0-8c35-4d25-9ec9-af86926ed03f",
+          "handle": "spectre12",
+          "platform": "Nighthawk Market",
+          "active_from": "2023-06-10T07:36:04+00:00",
+          "active_to": "2024-12-09T08:11:54+00:00",
+          "identifiers": [
+            {
+              "id": "45f4450a-54a5-41dd-b79f-29af4fbedc32",
+              "type": "EMAIL_HASH",
+              "value": "41117422b43a3e05c0623c4905c6db413696e5ea2be7d7fe5b6d8a01af12f39f",
+              "first_seen": "2023-06-10T07:36:04+00:00"
+            },
+            {
+              "id": "b7944d75-7965-455b-914a-ff7f9aa11f9c",
+              "type": "WALLET_BTC",
+              "value": "bc1q6sapll7jtqz5zc81dheoag7phue1h7c0dhfq74",
+              "first_seen": "2023-06-10T07:36:04+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "3a6299e1-682e-4358-969b-6473758a22ab",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-12-16T07:00:14+00:00",
+              "raw_text": "can somone vouch fr this vendoor first tme here",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "2d78a8bf-ac1e-4a33-b7ae-a67754e1395b",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-02-10T14:22:40+00:00",
+              "raw_text": "dont use thsi adress anymor new one in bio",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "65af8e60-a8aa-4794-a8af-2f1e7317e6d0",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-08-14T09:02:56+00:00",
+              "raw_text": "watning scamer on agora using simlar name watch out",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "1fe073c0-9a46-402d-b74d-3d772ba311fd",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-11-01T05:42:22+00:00",
+              "raw_text": "prise is fair imo vendro is legti",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "b4cc96a0-69fa-4e82-83b5-97d004a161db",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-10-07T13:42:48+00:00",
+              "raw_text": "payemnt sent chek the blockchian if u dont belive",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "c67f43ee-bf86-4a60-9991-96bcbc8506ca",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-09-12T02:40:27+00:00",
+              "raw_text": "payemnt sent chek the blockchian if u dont belive",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "b3c85ac4-7b30-4596-ba1e-7366b59d4f5c",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-02-02T00:55:49+00:00",
+              "raw_text": "prise is fair imo vendro is legti",
+              "category": "UNKNOWN"
+            }
+          ]
+        },
+        {
+          "id": "7cec0802-a205-4f3e-b15c-cd6be5491a66",
+          "handle": "apex12",
+          "platform": "AgoraX",
+          "active_from": "2022-06-01T06:48:44+00:00",
+          "active_to": "2025-06-10T09:19:56+00:00",
+          "identifiers": [
+            {
+              "id": "15b324f4-7fae-4a71-8f80-aa00e55c3ce8",
+              "type": "PGP_KEY",
+              "value": "A13EBBE037CB2FCABEE70812F19D17116A6BA9AB",
+              "first_seen": "2022-06-01T06:48:44+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "19848081-b113-4b0f-95bb-dbd114774ed9",
+              "platform": "AgoraX",
+              "timestamp": "2023-09-08T03:55:13+00:00",
+              "raw_text": "ffs guys use escrwo dont be stupid abt it",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "1fd9ef96-569d-4f41-bee2-82de4290462a",
+              "platform": "AgoraX",
+              "timestamp": "2024-09-18T20:20:58+00:00",
+              "raw_text": "watning scamer on agora using simlar name watch out",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "95895530-4ce9-40cc-9e96-b0dc1069c65b",
+              "platform": "AgoraX",
+              "timestamp": "2023-03-29T05:14:24+00:00",
+              "raw_text": "yo i gt the stuf ur lokking for hmu asap",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "0fe1d770-935b-4bd5-aa97-0c868bc646cc",
+              "platform": "AgoraX",
+              "timestamp": "2023-04-05T17:08:09+00:00",
+              "raw_text": "my reveiw is up 5 stars overal no complants",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "c3412bbe-7958-44b7-8b65-88e85e6f0492",
+              "platform": "AgoraX",
+              "timestamp": "2023-01-08T13:57:47+00:00",
+              "raw_text": "yo i gt the stuf ur lokking for hmu asap",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "e93c66a6-af57-451e-a0a2-b3cc6d0863ff",
+              "platform": "AgoraX",
+              "timestamp": "2023-11-15T17:08:19+00:00",
+              "raw_text": "ffs guys use escrwo dont be stupid abt it",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "ec66eaf8-8a0d-4de7-8dc5-047aaa27e561",
+              "platform": "AgoraX",
+              "timestamp": "2023-01-22T13:36:03+00:00",
+              "raw_text": "prise is fair imo vendro is legti",
+              "category": "UNKNOWN"
+            }
+          ]
+        },
+        {
+          "id": "c3633bc9-2ceb-4b6a-92f0-e8471e99e645",
+          "handle": "flux23",
+          "platform": "CipherForum",
+          "active_from": "2023-02-08T15:33:11+00:00",
+          "active_to": "2025-10-14T03:33:18+00:00",
+          "identifiers": [
+            {
+              "id": "782c5d8c-b65c-4139-9407-8114d7eacc3e",
+              "type": "WALLET_BTC",
+              "value": "bc1q3r12issjz05r1dfuwpy45a9opf2ulld2nj71oo",
+              "first_seen": "2023-02-08T15:33:11+00:00"
+            },
+            {
+              "id": "f42f7cef-6b3c-4914-9676-e3056795f47b",
+              "type": "WALLET_ETH",
+              "value": "0x28C6c06298d514Db089934071355E5743bf21d60",
+              "first_seen": "2023-02-08T15:33:11+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "64224c52-0f20-45e9-bd28-c5fb00719cd8",
+              "platform": "CipherForum",
+              "timestamp": "2024-11-01T22:23:21+00:00",
+              "raw_text": "bruv the qualiy on ths batch is insane tbh",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "70b85eb6-8961-411c-8cbe-31fed67c83e1",
+              "platform": "CipherForum",
+              "timestamp": "2025-08-09T09:44:39+00:00",
+              "raw_text": "chekd the prodct its fire no cap frfr",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "861238f8-5539-4d47-8fa5-b83635d006c4",
+              "platform": "CipherForum",
+              "timestamp": "2024-07-20T10:10:46+00:00",
+              "raw_text": "yo i gt the stuf ur lokking for hmu asap",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "8869b68b-75e8-4a43-9321-2e25431053cf",
+              "platform": "CipherForum",
+              "timestamp": "2023-11-05T13:27:30+00:00",
+              "raw_text": "ffs guys use escrwo dont be stupid abt it",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "9ba4a1f3-20ff-406e-9954-ed2d05670920",
+              "platform": "CipherForum",
+              "timestamp": "2023-08-12T00:53:16+00:00",
+              "raw_text": "defintely recomend fast shiping and gd qualiy",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "a494a267-cfb6-4dd4-abd3-7d6e0c5ef2ce",
+              "platform": "CipherForum",
+              "timestamp": "2025-04-13T14:30:49+00:00",
+              "raw_text": "dont use thsi adress anymor new one in bio",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "0bd1595d-af74-47c1-9bdc-25443e3e46ca",
+              "platform": "CipherForum",
+              "timestamp": "2025-12-08T02:55:57+00:00",
+              "raw_text": "my reveiw is up 5 stars overal no complants",
+              "category": "UNKNOWN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29880b84-c04f-49db-bdec-c5c3a544d1bc",
+      "primary_handle": "dark13",
+      "first_seen": "2023-02-08T05:39:09+00:00",
+      "last_seen": "2024-11-25T23:05:13+00:00",
+      "confidence_score": 94.94,
+      "risk_category": "UNKNOWN",
+      "style_template": "unique",
+      "notes": "Synthetic actor #7 — Single age movement character practice main anything.",
+      "aliases": [
+        {
+          "id": "75e67035-1d7e-444b-8454-501cc1df17c0",
+          "handle": "dark13",
+          "platform": "CipherForum",
+          "active_from": "2023-12-03T21:52:38+00:00",
+          "active_to": "2025-06-19T17:15:43+00:00",
+          "identifiers": [
+            {
+              "id": "dc7efc9a-8398-4600-b20f-e92905566b01",
+              "type": "EMAIL_HASH",
+              "value": "3714d9d2b1f0dc5bce5289c2bcea5356c5579460b41717553a93e50194d0959e",
+              "first_seen": "2023-12-03T21:52:38+00:00"
+            },
+            {
+              "id": "891b3d61-91c3-4634-87f9-bb37c7d8df3c",
+              "type": "WALLET_ETH",
+              "value": "0x75e89d5979E4f6Fba9F97c104c2F0AFB3F1dcB88",
+              "first_seen": "2023-12-03T21:52:38+00:00"
+            },
+            {
+              "id": "74a538fd-8fa7-4128-a1c7-538666de977d",
+              "type": "WALLET_ETH",
+              "value": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+              "first_seen": "2023-02-08T05:39:09+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "9529723d-e534-422d-be60-356eaeb9ec5c",
+              "platform": "CipherForum",
+              "timestamp": "2024-08-06T20:08:18+00:00",
+              "raw_text": "Say us without business economy maintain include.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "8c9b33e5-3039-4196-a9b5-42d3e41f85a3",
+              "platform": "CipherForum",
+              "timestamp": "2023-08-27T11:58:38+00:00",
+              "raw_text": "Their send sure bill himself work third industry whatever.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "4f2353d5-8e76-4afa-ae77-37be16cda6c0",
+              "platform": "CipherForum",
+              "timestamp": "2025-01-19T15:03:17+00:00",
+              "raw_text": "College gun window small.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "3843a721-291c-4b79-a348-2fb64d452512",
+              "platform": "CipherForum",
+              "timestamp": "2024-10-20T07:26:58+00:00",
+              "raw_text": "Thing understand forward several full program.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "d6837ab8-539e-4e75-8d04-57cd8f3446d9",
+              "platform": "CipherForum",
+              "timestamp": "2024-02-14T13:48:15+00:00",
+              "raw_text": "Control economy yes them receive bad stand special week toward.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "cf4660db-7e27-487f-89be-c32cde1beeb0",
+              "platform": "CipherForum",
+              "timestamp": "2025-02-13T15:35:40+00:00",
+              "raw_text": "Large way go.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "eb5f6db9-e8e3-4b6e-958e-9f5ba792dfeb",
+              "platform": "CipherForum",
+              "timestamp": "2024-04-25T10:25:37+00:00",
+              "raw_text": "Picture must man teacher.",
+              "category": "UNKNOWN"
+            }
+          ]
+        },
+        {
+          "id": "0dae86e7-066e-44d3-b99b-bd928e70ce9a",
+          "handle": "venom99",
+          "platform": "AgoraX",
+          "active_from": "2022-01-13T14:03:09+00:00",
+          "active_to": "2025-08-12T12:29:28+00:00",
+          "identifiers": [
+            {
+              "id": "315d84f4-0f27-419b-b12d-cd63c1ab5d3f",
+              "type": "EMAIL_HASH",
+              "value": "289d81e94d24fe0021322634145a40b5aa8c0e0ad1a210039580a0773575695e",
+              "first_seen": "2022-01-13T14:03:09+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "5a6098f0-73a1-43b9-9fb1-55e9c1555840",
+              "platform": "AgoraX",
+              "timestamp": "2023-08-21T03:09:59+00:00",
+              "raw_text": "Wish hard himself out happy better computer word program bill grow share.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "fcdd1b58-bfb0-414c-9792-61dc2d78357e",
+              "platform": "AgoraX",
+              "timestamp": "2024-08-09T11:33:53+00:00",
+              "raw_text": "Control economy yes them receive bad stand special week toward.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "79ce9797-6308-4d02-b96f-be1733c8d680",
+              "platform": "AgoraX",
+              "timestamp": "2025-05-04T13:30:18+00:00",
+              "raw_text": "Their send sure bill himself work third industry whatever.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "a9c130fa-f376-4596-b7ec-a9880f4516ad",
+              "platform": "AgoraX",
+              "timestamp": "2025-04-09T21:43:21+00:00",
+              "raw_text": "Say us without business economy maintain include.",
+              "category": "UNKNOWN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f27b922a-f08d-4022-b976-a3e3bccf7c26",
+      "primary_handle": "ghost_7",
+      "first_seen": "2022-01-18T21:41:44+00:00",
+      "last_seen": "2024-03-25T03:39:50+00:00",
+      "confidence_score": 22.01,
+      "risk_category": "DATA",
+      "style_template": "unique",
+      "notes": "Synthetic actor #8 — Pick television audience it must crime by say.",
+      "aliases": [
+        {
+          "id": "875d02b2-d66f-4148-8cf6-caf27848bc2b",
+          "handle": "ghost_7",
+          "platform": "AgoraX",
+          "active_from": "2023-10-02T13:46:22+00:00",
+          "active_to": "2024-05-19T14:48:31+00:00",
+          "identifiers": [
+            {
+              "id": "bf7cb63c-aabb-4e74-9a7b-aeba4ad8fcd9",
+              "type": "PGP_KEY",
+              "value": "13CCBD28C99530AB3ECB5F6B3DB455352020814C",
+              "first_seen": "2023-10-02T13:46:22+00:00"
+            },
+            {
+              "id": "109ff957-bbf2-4b5c-bcd6-23eaaec11b9a",
+              "type": "WALLET_BTC",
+              "value": "bc1qehh6e53v5a0kbemvtl7mvm2df7zupcds248wop",
+              "first_seen": "2023-10-02T13:46:22+00:00"
+            },
+            {
+              "id": "2f993072-715e-44d8-951a-3cf04b9ad2f9",
+              "type": "WALLET_ETH",
+              "value": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+              "first_seen": "2023-02-08T05:39:09+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "5e476f96-7f7e-4007-8490-41990efac6a5",
+              "platform": "AgoraX",
+              "timestamp": "2023-03-14T19:21:14+00:00",
+              "raw_text": "Baby position rise our huge start hold really.",
+              "category": "DATA"
+            },
+            {
+              "id": "48e9e14a-9200-4c86-9f59-b189a64beb83",
+              "platform": "AgoraX",
+              "timestamp": "2023-09-05T16:31:47+00:00",
+              "raw_text": "A use meet customer from sister respond ball phone response.",
+              "category": "DATA"
+            },
+            {
+              "id": "a765c3e4-9cc3-4e61-b59b-de57c4e6817f",
+              "platform": "AgoraX",
+              "timestamp": "2023-02-22T02:40:28+00:00",
+              "raw_text": "Measure anything if could image central wind late address exactly generation score their many home system whatever hundred.",
+              "category": "DATA"
+            },
+            {
+              "id": "06eba1dd-f4c6-4556-8930-29affe6247e0",
+              "platform": "AgoraX",
+              "timestamp": "2023-12-28T21:51:14+00:00",
+              "raw_text": "Type style yes bit Mrs state claim.",
+              "category": "DATA"
+            },
+            {
+              "id": "e55ae974-8fc5-45f4-9fc0-8fea6fed4aff",
+              "platform": "AgoraX",
+              "timestamp": "2023-03-06T21:00:20+00:00",
+              "raw_text": "Real manage action Mrs hold early risk capital small success next.",
+              "category": "DATA"
+            }
+          ]
+        },
+        {
+          "id": "a0f82d8f-e3e0-46cc-b2c2-9b6adf74c99f",
+          "handle": "byte13",
+          "platform": "Nighthawk Market",
+          "active_from": "2022-10-15T12:18:07+00:00",
+          "active_to": "2024-10-12T15:37:18+00:00",
+          "identifiers": [
+            {
+              "id": "dbf2e8b7-b6e4-487a-ba70-210401e65e7c",
+              "type": "WALLET_BTC",
+              "value": "bc1qi37a8rpl8tx8ro5ho5whowl4oopn3p2pvbiai2",
+              "first_seen": "2022-10-15T12:18:07+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "dda5d834-3bf9-462b-9078-fc9a76a43f96",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-08-18T14:21:47+00:00",
+              "raw_text": "A use meet customer from sister respond ball phone response.",
+              "category": "DATA"
+            },
+            {
+              "id": "eadd3482-d16f-45cb-81f0-78c50e919c08",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-06-09T19:34:44+00:00",
+              "raw_text": "Material follow performance prepare area a again responsibility upon.",
+              "category": "DATA"
+            },
+            {
+              "id": "cc66dd3f-5aa3-4b7b-ad04-9527c8250f4e",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-04-11T11:06:25+00:00",
+              "raw_text": "Official child manager.",
+              "category": "DATA"
+            },
+            {
+              "id": "41a5f11a-d6ed-4ba3-9cbf-1ec8c89032ea",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-05-13T04:58:58+00:00",
+              "raw_text": "Stock likely process tend rate responsibility argue four participant different look song describe.",
+              "category": "DATA"
+            },
+            {
+              "id": "7d6957e4-d75a-4ee4-bc02-c8c4660e9e15",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-05-08T21:06:05+00:00",
+              "raw_text": "Real manage action Mrs hold early risk capital small success next.",
+              "category": "DATA"
+            },
+            {
+              "id": "738fd991-dfb2-4275-b50a-fd212f366e43",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-05-07T21:22:15+00:00",
+              "raw_text": "Measure anything if could image central wind late address exactly generation score their many home system whatever hundred.",
+              "category": "DATA"
+            }
+          ]
+        },
+        {
+          "id": "c6c820fd-f942-4d27-a8f7-c88ba6245b9e",
+          "handle": "cobalt11",
+          "platform": "VaultBazaar",
+          "active_from": "2022-02-15T15:05:05+00:00",
+          "active_to": "2025-01-20T04:34:54+00:00",
+          "identifiers": [
+            {
+              "id": "9f8ab7dc-b90c-42d4-a78f-cc460cbe34c3",
+              "type": "WALLET_ETH",
+              "value": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+              "first_seen": "2022-02-15T15:05:05+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "fdb12c2f-44dd-4356-8da1-f68c76e3f76f",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-12-02T08:20:33+00:00",
+              "raw_text": "Main response office difference always process region.",
+              "category": "DATA"
+            },
+            {
+              "id": "bd5b69c3-2ec4-4a5c-ab2c-fad66373ca1d",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-04-02T23:14:12+00:00",
+              "raw_text": "Raise road either market major risk score attack myself can.",
+              "category": "DATA"
+            },
+            {
+              "id": "f4f2b039-4d4d-483f-af92-1e95d8db3b10",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-08-24T05:41:59+00:00",
+              "raw_text": "Age upon may space threat public some rather after today economy course.",
+              "category": "DATA"
+            },
+            {
+              "id": "8e1cc06e-74f8-47be-8cd0-ea4d8e8705bc",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-02-12T13:05:31+00:00",
+              "raw_text": "Official child manager.",
+              "category": "DATA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2b0bb9f2-e1de-4b75-861d-1273a074b10d",
+      "primary_handle": "flux88",
+      "first_seen": "2023-05-21T12:36:57+00:00",
+      "last_seen": "2025-02-01T00:12:09+00:00",
+      "confidence_score": 63.57,
+      "risk_category": "FRAUD",
+      "style_template": "unique",
+      "notes": "Synthetic actor #9 — Teacher least popular individual movie.",
+      "aliases": [
+        {
+          "id": "c507c7f7-7009-4dbe-b3d2-12daca4057c1",
+          "handle": "flux88",
+          "platform": "VaultBazaar",
+          "active_from": "2022-04-11T20:05:57+00:00",
+          "active_to": "2024-09-06T03:11:02+00:00",
+          "identifiers": [
+            {
+              "id": "7d71bb51-8394-42c5-80e9-f99acc8389ad",
+              "type": "WALLET_ETH",
+              "value": "0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
+              "first_seen": "2022-04-11T20:05:57+00:00"
+            },
+            {
+              "id": "c07a3822-f60f-4294-ab23-edb03eeb3ac9",
+              "type": "WALLET_BTC",
+              "value": "bc1qysb2wvfoyvyjiyj5lwvunpqdamdzvsj2r8bdcm",
+              "first_seen": "2022-04-11T20:05:57+00:00"
+            },
+            {
+              "id": "57b6f6fc-7dca-4176-88c9-d2fee5eb569a",
+              "type": "WALLET_BTC",
+              "value": "bc1q8ze3938bxbkw405ud9oa41xldp4762ivhfrzo3",
+              "first_seen": "2023-05-21T12:36:57+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "8c9866b5-da3c-4508-b056-9b6febc487c3",
+              "platform": "VaultBazaar",
+              "timestamp": "2025-02-21T21:32:20+00:00",
+              "raw_text": "Hundred ball move maintain myself too everything when read key win security.",
+              "category": "FRAUD"
+            },
+            {
+              "id": "4ed65dd0-836b-47ac-90f7-ede14f45ab48",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-04-26T13:58:43+00:00",
+              "raw_text": "Hundred ball move maintain myself too everything when read key win security.",
+              "category": "FRAUD"
+            },
+            {
+              "id": "5d30f6aa-0786-44a2-bb84-ce01a0540ec3",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-11-27T17:39:21+00:00",
+              "raw_text": "Treatment think admit church well know born keep sort pattern itself.",
+              "category": "FRAUD"
+            },
+            {
+              "id": "44244c01-8bbb-4c84-ba2d-f6a6f756947f",
+              "platform": "VaultBazaar",
+              "timestamp": "2025-03-14T08:39:39+00:00",
+              "raw_text": "Treatment think admit church well know born keep sort pattern itself.",
+              "category": "FRAUD"
+            },
+            {
+              "id": "0865a859-6fbf-4a58-b42a-6aba20009a86",
+              "platform": "VaultBazaar",
+              "timestamp": "2025-12-13T23:10:27+00:00",
+              "raw_text": "Current inside notice reach green development discuss foreign sister child threat face.",
+              "category": "FRAUD"
+            }
+          ]
+        },
+        {
+          "id": "40121b1d-38d2-4f4e-9275-a371edf80e9f",
+          "handle": "spectre_x",
+          "platform": "Nighthawk Market",
+          "active_from": "2023-11-30T02:23:49+00:00",
+          "active_to": "2025-03-30T14:37:46+00:00",
+          "identifiers": [
+            {
+              "id": "b6548849-6efb-44e5-b9ef-c9214039fd2c",
+              "type": "WALLET_BTC",
+              "value": "bc1qlav27cgyxdhdaka7p3zyv8jipy5j3bdu6t4jaz",
+              "first_seen": "2023-11-30T02:23:49+00:00"
+            },
+            {
+              "id": "ae138412-2f3b-4601-8ad6-777986e0cc1b",
+              "type": "PGP_KEY",
+              "value": "70B86BF717CE3045F6E9E1637C3EB60B6C11F32E",
+              "first_seen": "2023-11-30T02:23:49+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "da8bf3b6-37d1-4335-889d-7a191ecef617",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-01-26T22:43:35+00:00",
+              "raw_text": "First later require.",
+              "category": "FRAUD"
+            },
+            {
+              "id": "e36ebb78-c271-4177-a027-e58ce59bba80",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-10-27T02:45:48+00:00",
+              "raw_text": "Industry finally break back worry win worry social.",
+              "category": "FRAUD"
+            },
+            {
+              "id": "aa17e6de-609a-4d62-88b1-bfa634642e4a",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-05-23T23:02:30+00:00",
+              "raw_text": "Positive center out enjoy like also leg recent statement build child tough house at impact.",
+              "category": "FRAUD"
+            },
+            {
+              "id": "87d27a58-1b22-4669-befc-eb272e4444b1",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-12-17T03:09:39+00:00",
+              "raw_text": "First later require.",
+              "category": "FRAUD"
+            },
+            {
+              "id": "32cd2b3e-1e07-44ae-a387-fee3abe80b0c",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-07-09T23:50:28+00:00",
+              "raw_text": "Week country war end gas cost main north head watch this popular skin enjoy us rich worker continue.",
+              "category": "FRAUD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dee06d26-a7a2-4405-95eb-470dd81a30aa",
+      "primary_handle": "flux12",
+      "first_seen": "2023-01-19T21:39:41+00:00",
+      "last_seen": "2025-04-29T19:33:22+00:00",
+      "confidence_score": 97.67,
+      "risk_category": "ARMS",
+      "style_template": "typo_heavy",
+      "notes": "Synthetic actor #10 — Speech season oil actually always control sell talk.",
+      "aliases": [
+        {
+          "id": "3c92f615-4c78-4a46-acec-c9e84c6f7521",
+          "handle": "flux12",
+          "platform": "CipherForum",
+          "active_from": "2022-09-06T02:18:07+00:00",
+          "active_to": "2024-10-01T05:34:46+00:00",
+          "identifiers": [
+            {
+              "id": "6919edd3-c3d8-407c-98db-e7934649b648",
+              "type": "WALLET_BTC",
+              "value": "bc1qug8yp1dktwcupxxykomhbeisjq8jvwqbt6ibrc",
+              "first_seen": "2022-09-06T02:18:07+00:00"
+            },
+            {
+              "id": "463b7c0f-1e48-454d-ad29-626453a19622",
+              "type": "WALLET_BTC",
+              "value": "bc1q8ze3938bxbkw405ud9oa41xldp4762ivhfrzo3",
+              "first_seen": "2023-05-21T12:36:57+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "70651861-0c77-47ed-9ebd-b603d76ab208",
+              "platform": "CipherForum",
+              "timestamp": "2025-12-25T19:30:56+00:00",
+              "raw_text": "watning scamer on agora using simlar name watch out",
+              "category": "ARMS"
+            },
+            {
+              "id": "b28fb4fa-24cc-44f9-a881-8a0d2ecaa34e",
+              "platform": "CipherForum",
+              "timestamp": "2025-10-16T18:33:17+00:00",
+              "raw_text": "shippd ystrday chek ur msgs bruv",
+              "category": "ARMS"
+            },
+            {
+              "id": "687ee869-b0fd-41b1-85cf-f159075e98b5",
+              "platform": "CipherForum",
+              "timestamp": "2025-11-03T10:10:49+00:00",
+              "raw_text": "ffs guys use escrwo dont be stupid abt it",
+              "category": "ARMS"
+            },
+            {
+              "id": "dcea25b1-780a-439e-854b-595bc5ab3c98",
+              "platform": "CipherForum",
+              "timestamp": "2025-09-09T00:37:11+00:00",
+              "raw_text": "yo i gt the stuf ur lokking for hmu asap",
+              "category": "ARMS"
+            },
+            {
+              "id": "44bf0e07-eb76-44f4-adab-1ca284022fd7",
+              "platform": "CipherForum",
+              "timestamp": "2024-07-16T01:01:55+00:00",
+              "raw_text": "mooved to new mrket cuz old one got seizd",
+              "category": "ARMS"
+            },
+            {
+              "id": "4a25eda0-3bfe-4bfb-8518-aaa962579735",
+              "platform": "CipherForum",
+              "timestamp": "2025-04-09T20:41:24+00:00",
+              "raw_text": "changed my pgp ky check new one on profil",
+              "category": "ARMS"
+            },
+            {
+              "id": "b58cb50b-5d01-4cdc-9762-4281f0a51b0e",
+              "platform": "CipherForum",
+              "timestamp": "2024-11-07T10:43:24+00:00",
+              "raw_text": "new listng up cheeper than lst time cuz bulk",
+              "category": "ARMS"
+            }
+          ]
+        },
+        {
+          "id": "028f1cf0-7ec0-43d9-9b37-152cfaf0b492",
+          "handle": "byte12",
+          "platform": "SilkRoute2",
+          "active_from": "2022-03-10T14:33:19+00:00",
+          "active_to": "2025-10-30T07:01:56+00:00",
+          "identifiers": [
+            {
+              "id": "7b95defe-bf2d-4539-8906-8d52a964830b",
+              "type": "WALLET_ETH",
+              "value": "0x28C6c06298d514Db089934071355E5743bf21d60",
+              "first_seen": "2022-03-10T14:33:19+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "a8279d3f-da06-4aab-b300-8e618a48ea40",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-11-03T13:12:14+00:00",
+              "raw_text": "mooved to new mrket cuz old one got seizd",
+              "category": "ARMS"
+            },
+            {
+              "id": "28a91ee5-1f39-4bb6-9090-423b82baf7f4",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-02-05T00:17:12+00:00",
+              "raw_text": "mooved to new mrket cuz old one got seizd",
+              "category": "ARMS"
+            },
+            {
+              "id": "24129cb1-fc44-45fc-8630-b030af9df6ac",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-06-19T11:29:35+00:00",
+              "raw_text": "watning scamer on agora using simlar name watch out",
+              "category": "ARMS"
+            },
+            {
+              "id": "806183b0-23f1-4124-8570-d905c0e8da8b",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-04-19T22:53:30+00:00",
+              "raw_text": "mooved to new mrket cuz old one got seizd",
+              "category": "ARMS"
+            },
+            {
+              "id": "62b0325e-083f-490e-8c9c-ede69a737a11",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-10-29T01:08:54+00:00",
+              "raw_text": "can somone vouch fr this vendoor first tme here",
+              "category": "ARMS"
+            },
+            {
+              "id": "a355d721-b445-4f2c-b8af-cc0244e12d7c",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-03-20T15:15:42+00:00",
+              "raw_text": "payemnt sent chek the blockchian if u dont belive",
+              "category": "ARMS"
+            },
+            {
+              "id": "a95a8c5c-396f-4c3c-a8b0-3bd6cdd85afd",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-01-16T16:02:28+00:00",
+              "raw_text": "defintely recomend fast shiping and gd qualiy",
+              "category": "ARMS"
+            }
+          ]
+        },
+        {
+          "id": "dc38ac26-8395-4a8a-b65f-49ae90692c18",
+          "handle": "zero13",
+          "platform": "AgoraX",
+          "active_from": "2022-09-25T21:06:45+00:00",
+          "active_to": "2024-11-04T10:12:15+00:00",
+          "identifiers": [
+            {
+              "id": "ad0f8009-0303-4d25-ae8f-1db679494db8",
+              "type": "PGP_KEY",
+              "value": "17DD9689B35E8B93E2F410ECAC67B328F7C34BF3",
+              "first_seen": "2022-09-25T21:06:45+00:00"
+            },
+            {
+              "id": "6b8c809a-4f2f-45d0-b5f1-eab15667c08f",
+              "type": "WALLET_ETH",
+              "value": "0x75e89d5979E4f6Fba9F97c104c2F0AFB3F1dcB88",
+              "first_seen": "2022-09-25T21:06:45+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "ffa4cc62-f3bb-4708-848b-7a5ac17a4213",
+              "platform": "AgoraX",
+              "timestamp": "2025-11-08T16:58:03+00:00",
+              "raw_text": "can somone vouch fr this vendoor first tme here",
+              "category": "ARMS"
+            },
+            {
+              "id": "0a83b026-5e4a-4f27-b640-fdd8a08354b2",
+              "platform": "AgoraX",
+              "timestamp": "2025-07-13T03:28:44+00:00",
+              "raw_text": "new listng up cheeper than lst time cuz bulk",
+              "category": "ARMS"
+            },
+            {
+              "id": "ff67c302-042b-41ca-a1c4-052a910a5e81",
+              "platform": "AgoraX",
+              "timestamp": "2025-05-01T15:29:35+00:00",
+              "raw_text": "jsut got it delivrd evrything looks gd thx",
+              "category": "ARMS"
+            },
+            {
+              "id": "4fb2d941-670e-4095-b934-ce746bf17643",
+              "platform": "AgoraX",
+              "timestamp": "2025-03-23T18:00:56+00:00",
+              "raw_text": "ordred twice alredy no problms at all",
+              "category": "ARMS"
+            },
+            {
+              "id": "ed46311d-abd7-4ff8-9a62-3b0a2e7aadd3",
+              "platform": "AgoraX",
+              "timestamp": "2023-05-30T02:26:36+00:00",
+              "raw_text": "payemnt sent chek the blockchian if u dont belive",
+              "category": "ARMS"
+            },
+            {
+              "id": "3e25bd3c-6569-4adb-a452-6030b2bbb55e",
+              "platform": "AgoraX",
+              "timestamp": "2023-10-18T11:23:12+00:00",
+              "raw_text": "sendin from EU shippng takes lke 5 days max",
+              "category": "ARMS"
+            },
+            {
+              "id": "e8f1d1a9-2f4a-4786-a9bd-572782072038",
+              "platform": "AgoraX",
+              "timestamp": "2023-04-26T02:41:09+00:00",
+              "raw_text": "mooved to new mrket cuz old one got seizd",
+              "category": "ARMS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edc27fd2-a4f1-453b-adf7-c36079f48c9a",
+      "primary_handle": "zero_01",
+      "first_seen": "2023-11-01T10:10:35+00:00",
+      "last_seen": "2025-04-19T10:18:18+00:00",
+      "confidence_score": 59.82,
+      "risk_category": "UNKNOWN",
+      "style_template": "unique",
+      "notes": "Synthetic actor #11 — New edge sport human south travel month.",
+      "aliases": [
+        {
+          "id": "0b07e24e-7440-4173-9dd7-a277aaaab5d6",
+          "handle": "zero_01",
+          "platform": "Nighthawk Market",
+          "active_from": "2023-01-23T06:34:57+00:00",
+          "active_to": "2024-03-02T14:38:01+00:00",
+          "identifiers": [
+            {
+              "id": "5cace0a2-10e9-47c7-bbc0-c01752cf4ed2",
+              "type": "EMAIL_HASH",
+              "value": "773ffcdd8559b976e95066823b3cd19b6c77f3a55f64fbdf667e11c3638b4d56",
+              "first_seen": "2023-01-23T06:34:57+00:00"
+            },
+            {
+              "id": "dfde3d42-ae12-4b4c-918c-8b3893e0b221",
+              "type": "WALLET_ETH",
+              "value": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+              "first_seen": "2023-01-23T06:34:57+00:00"
+            },
+            {
+              "id": "3fd22116-98ec-49bc-8957-9e2ff3d9f9e9",
+              "type": "PGP_KEY",
+              "value": "675232CC64631F83370EB8A0A4C70EB41F93EB4F",
+              "first_seen": "2023-11-01T10:10:35+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "91d20e17-217b-4cb5-8c84-eaaf21aee7e2",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-03-30T18:44:00+00:00",
+              "raw_text": "Treatment town lot economic quite mind air lead factor popular.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "dce8dfb6-94b3-4085-bb50-302d5c223036",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-12-01T12:44:58+00:00",
+              "raw_text": "Successful lay report event everyone second.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "0c0bf78b-419d-4582-8c6c-df10974b3402",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-02-01T08:41:52+00:00",
+              "raw_text": "Man third really still ago short environmental financial.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "d1f9391d-dff6-4ab6-86c2-c36314e34fa0",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-08-24T21:51:55+00:00",
+              "raw_text": "Recent note where kid direction scene challenge ago early bring.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "420e912a-8b40-4088-9622-0ef5ecd6c3eb",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-03-24T04:07:36+00:00",
+              "raw_text": "Successful lay report event everyone second.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "2b5ddc31-2ef2-4688-8ec4-39214f141775",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-03-28T17:28:13+00:00",
+              "raw_text": "Recent note where kid direction scene challenge ago early bring.",
+              "category": "UNKNOWN"
+            }
+          ]
+        },
+        {
+          "id": "d8f8a789-14be-4f58-9a5e-12eea93f8dcd",
+          "handle": "shadow_x",
+          "platform": "SilkRoute2",
+          "active_from": "2022-07-23T12:29:56+00:00",
+          "active_to": "2025-09-12T07:30:37+00:00",
+          "identifiers": [
+            {
+              "id": "662efbf9-cb13-4f31-9473-832e44aaa438",
+              "type": "WALLET_ETH",
+              "value": "0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
+              "first_seen": "2022-07-23T12:29:56+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "b065881c-a909-4c16-bb45-c011098be575",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-09-07T08:39:44+00:00",
+              "raw_text": "Stage news turn hour always common thousand impact attack.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "e0079624-0950-4ee1-9944-6a6e4047882c",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-05-02T20:36:20+00:00",
+              "raw_text": "Add road.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "300ed177-5088-49cd-8d62-a114bfc3c034",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-02-14T04:57:56+00:00",
+              "raw_text": "Great too become fund risk situation.",
+              "category": "UNKNOWN"
+            }
+          ]
+        },
+        {
+          "id": "22d349d4-5fb7-4a4a-a240-05c8a4b36e03",
+          "handle": "nexus12",
+          "platform": "AgoraX",
+          "active_from": "2022-11-26T10:20:27+00:00",
+          "active_to": "2025-07-29T02:22:21+00:00",
+          "identifiers": [
+            {
+              "id": "fa726de2-1c7f-474d-8fe6-a1fe1f62a550",
+              "type": "WALLET_ETH",
+              "value": "0x28C6c06298d514Db089934071355E5743bf21d60",
+              "first_seen": "2022-11-26T10:20:27+00:00"
+            },
+            {
+              "id": "7827ece1-c6a7-41b9-baac-7967e5dba060",
+              "type": "EMAIL_HASH",
+              "value": "cb0e593a926b8d1cead60a9f8615ff177f074f00e9b60dbe8dc72f95a2f341f4",
+              "first_seen": "2022-11-26T10:20:27+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "869b771a-f2a9-40ac-b3c0-c2c73012f599",
+              "platform": "AgoraX",
+              "timestamp": "2024-08-05T22:43:31+00:00",
+              "raw_text": "Treatment town lot economic quite mind air lead factor popular.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "ff270d64-fb6f-41b0-b23d-41a60315de7a",
+              "platform": "AgoraX",
+              "timestamp": "2024-09-21T18:49:09+00:00",
+              "raw_text": "Modern sometimes certain.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "2fea0a5b-156b-4cb3-a150-7ccfa7db5aea",
+              "platform": "AgoraX",
+              "timestamp": "2024-11-27T07:50:52+00:00",
+              "raw_text": "Treat space together difference at any value station resource bed drop cultural station woman new role.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "bfbef130-dcfb-408b-8d41-23497350794d",
+              "platform": "AgoraX",
+              "timestamp": "2024-04-06T07:42:16+00:00",
+              "raw_text": "Painting garden civil eat perhaps space society draw run hard action person.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "f5c01dd8-c353-432d-83e8-e03a3fec9de9",
+              "platform": "AgoraX",
+              "timestamp": "2024-06-07T11:41:59+00:00",
+              "raw_text": "Total hair quality record too month.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "6ce6cdd9-4e9f-4d79-a6ea-155508c3b75f",
+              "platform": "AgoraX",
+              "timestamp": "2025-01-02T06:43:32+00:00",
+              "raw_text": "Tax campaign skin yes probably early court media two economic woman expert clear region.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "fa0dd5c0-1ba5-4270-aac8-c3916a8b02fa",
+              "platform": "AgoraX",
+              "timestamp": "2025-07-18T00:10:47+00:00",
+              "raw_text": "Painting garden civil eat perhaps space society draw run hard action person.",
+              "category": "UNKNOWN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b83114e4-edd0-4e42-b166-1bf0032f4eb2",
+      "primary_handle": "byte_z",
+      "first_seen": "2022-09-07T07:45:19+00:00",
+      "last_seen": "2024-01-21T06:43:10+00:00",
+      "confidence_score": 32.18,
+      "risk_category": "UNKNOWN",
+      "style_template": "unique",
+      "notes": "Synthetic actor #12 — Level after soon floor kind.",
+      "aliases": [
+        {
+          "id": "99dd730f-af87-4f1a-ab15-69f4b5ea91c6",
+          "handle": "byte_z",
+          "platform": "AgoraX",
+          "active_from": "2022-04-26T22:00:46+00:00",
+          "active_to": "2024-10-17T04:18:07+00:00",
+          "identifiers": [
+            {
+              "id": "e516f552-043f-41a5-a46d-cb30f7759d61",
+              "type": "WALLET_ETH",
+              "value": "0x75e89d5979E4f6Fba9F97c104c2F0AFB3F1dcB88",
+              "first_seen": "2022-04-26T22:00:46+00:00"
+            },
+            {
+              "id": "c11b11f1-6fe6-4efa-9ccd-8c0cc553523c",
+              "type": "WALLET_BTC",
+              "value": "bc1qkhxffyj010n38ziva7cm0olb5w275ykkqgyx8s",
+              "first_seen": "2022-04-26T22:00:46+00:00"
+            },
+            {
+              "id": "5d887585-4a87-4936-a7ab-8cc765945747",
+              "type": "PGP_KEY",
+              "value": "675232CC64631F83370EB8A0A4C70EB41F93EB4F",
+              "first_seen": "2023-11-01T10:10:35+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "04d0619f-1c32-4ef8-b2fe-51d518664b85",
+              "platform": "AgoraX",
+              "timestamp": "2025-06-18T00:12:22+00:00",
+              "raw_text": "Radio example cut.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "6224696d-e557-43c2-a6a0-4e7363ae7670",
+              "platform": "AgoraX",
+              "timestamp": "2025-05-11T07:29:54+00:00",
+              "raw_text": "Instead event member.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "e8bb70ac-1034-482d-8e89-fea82d05ccc1",
+              "platform": "AgoraX",
+              "timestamp": "2025-04-06T22:27:15+00:00",
+              "raw_text": "Year former above someone magazine sister.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "0f95dad6-5e6d-42d1-ac89-7b1b35d1b517",
+              "platform": "AgoraX",
+              "timestamp": "2023-03-09T06:41:01+00:00",
+              "raw_text": "Particularly cup million there dream at.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "5624d683-0008-4bf9-b9ec-6b4b0a7ec791",
+              "platform": "AgoraX",
+              "timestamp": "2023-07-22T01:42:27+00:00",
+              "raw_text": "Professor conference that red whatever quite professor cost agent believe pressure ground particularly hit use.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "2f25f4ec-e1e7-4dde-ac6c-aa428f93c624",
+              "platform": "AgoraX",
+              "timestamp": "2024-12-22T14:41:49+00:00",
+              "raw_text": "Letter physical little available station side would effort five spring pick resource minute.",
+              "category": "UNKNOWN"
+            }
+          ]
+        },
+        {
+          "id": "ca070367-bc74-4e7f-a2b1-6900bd9e8ac7",
+          "handle": "ghost55",
+          "platform": "SilkRoute2",
+          "active_from": "2022-09-18T07:03:59+00:00",
+          "active_to": "2024-07-30T04:22:45+00:00",
+          "identifiers": [
+            {
+              "id": "a73cfb03-dac6-4cec-8383-013d4177ec21",
+              "type": "WALLET_BTC",
+              "value": "bc1qil7l5i6er3phb030kbey0p501tqp854hw90yf4",
+              "first_seen": "2022-09-18T07:03:59+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "7c402805-5536-452e-854c-b9d85773ede0",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-06-30T07:37:29+00:00",
+              "raw_text": "Dark poor just economic perform maintain.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "848d0e92-d0b3-4d38-a71d-8751c6e961c7",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-03-13T20:56:38+00:00",
+              "raw_text": "Can whom day check best those few.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "428d3d52-0dd3-474b-9fbe-3bb6d4c69a02",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-04-17T14:41:44+00:00",
+              "raw_text": "Particularly cup million there dream at.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "1ef53ba3-4768-477c-928a-9601069f0f25",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-10-05T18:35:55+00:00",
+              "raw_text": "Process example pretty owner third care PM performance institution management.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "79714c56-73f0-464b-8dcb-672f43f7b6e1",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-01-17T17:57:04+00:00",
+              "raw_text": "Process example pretty owner third care PM performance institution management.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "fa6c1eb6-62bf-4bf3-a9ed-df46a0c503a9",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-06-30T15:51:13+00:00",
+              "raw_text": "Black then care focus.",
+              "category": "UNKNOWN"
+            },
+            {
+              "id": "65ca394b-e10a-406f-9b27-c8561bb1ae13",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-12-15T17:13:43+00:00",
+              "raw_text": "Letter physical little available station side would effort five spring pick resource minute.",
+              "category": "UNKNOWN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a628f222-b2b8-4acd-b11d-faa970a48a76",
+      "primary_handle": "spectre33",
+      "first_seen": "2023-10-05T11:10:36+00:00",
+      "last_seen": "2025-04-26T13:59:15+00:00",
+      "confidence_score": 3.56,
+      "risk_category": "DRUGS",
+      "style_template": "unique",
+      "notes": "Synthetic actor #13 — West stay last.",
+      "aliases": [
+        {
+          "id": "93ada027-4776-454d-a23d-79f49ebc6499",
+          "handle": "spectre33",
+          "platform": "CipherForum",
+          "active_from": "2022-03-07T12:28:40+00:00",
+          "active_to": "2025-09-04T13:02:02+00:00",
+          "identifiers": [
+            {
+              "id": "8ec04a29-bf72-4272-ba1f-5f389bd39616",
+              "type": "PGP_KEY",
+              "value": "38A22A96EBFA08DBB317DE32F293A51993786CD1",
+              "first_seen": "2022-03-07T12:28:40+00:00"
+            },
+            {
+              "id": "10ec8dda-0691-4479-b490-5711eb840438",
+              "type": "EMAIL_HASH",
+              "value": "0d3c9a89242750c859a7ed99d663f33a87da5383e1357c5d53e6b197f1ade43a",
+              "first_seen": "2022-03-07T12:28:40+00:00"
+            },
+            {
+              "id": "1bdc5f78-871c-450a-b4ac-7f0268de2f75",
+              "type": "WALLET_ETH",
+              "value": "0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
+              "first_seen": "2023-10-05T11:10:36+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "f8f6bd07-baa5-4107-8d6c-1b965f2cc08b",
+              "platform": "CipherForum",
+              "timestamp": "2025-12-30T06:06:09+00:00",
+              "raw_text": "Lot argue four take including trouble job kind.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "322a51c2-600e-49ee-9393-19bbc0c7d666",
+              "platform": "CipherForum",
+              "timestamp": "2023-08-29T22:42:57+00:00",
+              "raw_text": "Great several respond beyond decision save grow season consumer as.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "1984bb2a-86a1-4029-9bb7-76a8f9f5ab29",
+              "platform": "CipherForum",
+              "timestamp": "2025-09-12T02:19:57+00:00",
+              "raw_text": "Matter talk the choice enter someone hear population later.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "91b3ce19-f710-4616-bb61-db5c366a69ad",
+              "platform": "CipherForum",
+              "timestamp": "2025-04-26T05:34:09+00:00",
+              "raw_text": "Expect send always kitchen industry mouth smile use.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "9282827e-d1e6-4c67-b083-df7aad816d1a",
+              "platform": "CipherForum",
+              "timestamp": "2024-12-24T04:34:41+00:00",
+              "raw_text": "Network evening military new arrive nation.",
+              "category": "DRUGS"
+            }
+          ]
+        },
+        {
+          "id": "73660350-5117-470b-9779-938bfc3421cf",
+          "handle": "nexus33",
+          "platform": "AgoraX",
+          "active_from": "2022-02-04T12:15:54+00:00",
+          "active_to": "2025-03-06T02:06:51+00:00",
+          "identifiers": [
+            {
+              "id": "3d1c7dbf-b112-4a15-8f68-a8d8fcd5b837",
+              "type": "EMAIL_HASH",
+              "value": "a6d23f2369b3d82d040dd61005c64d27b4a47f51769c57e2277a5450d828c099",
+              "first_seen": "2022-02-04T12:15:54+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "13fcf028-ffe9-428b-9c0b-ecaa8e250269",
+              "platform": "AgoraX",
+              "timestamp": "2025-03-15T09:06:04+00:00",
+              "raw_text": "Performance sport wish force might off provide party side speech decade into detail interest.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "d2733775-7e1e-4cbc-b682-29f8aa4ecb29",
+              "platform": "AgoraX",
+              "timestamp": "2024-07-16T12:32:36+00:00",
+              "raw_text": "Indeed pull international student above western.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "c879db89-e6c2-4a04-9e29-1f9518fd71d5",
+              "platform": "AgoraX",
+              "timestamp": "2023-02-14T22:35:43+00:00",
+              "raw_text": "Foot resource Mrs summer guess camera professional huge both.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "720125ab-b92d-4e85-abc0-3bd9d0bd0d40",
+              "platform": "AgoraX",
+              "timestamp": "2025-08-20T14:16:39+00:00",
+              "raw_text": "Late expect no.",
+              "category": "DRUGS"
+            }
+          ]
+        },
+        {
+          "id": "72635ee5-6144-4306-8b6d-ec52536978fa",
+          "handle": "apex_xo",
+          "platform": "SilkRoute2",
+          "active_from": "2022-01-02T13:14:59+00:00",
+          "active_to": "2025-01-14T06:14:22+00:00",
+          "identifiers": [
+            {
+              "id": "1551906c-5ffd-466f-b38c-9b624d3751fb",
+              "type": "WALLET_BTC",
+              "value": "bc1q2zjhkod89otpg6jvb8imogmluf7l2jvonx4zne",
+              "first_seen": "2022-01-02T13:14:59+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "4d2f7178-a3ea-4133-a1a7-a255e8ca0be2",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-06-30T11:24:41+00:00",
+              "raw_text": "Own long particular low.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "85a3bc53-0054-46ab-89d7-aa3340a8b5c7",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-06-13T04:51:26+00:00",
+              "raw_text": "Science street family order player message just long standard do boy action feeling marriage leg.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "df8c2514-0a34-4008-9ca6-d3c5045cc941",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-11-18T04:09:22+00:00",
+              "raw_text": "Lot argue four take including trouble job kind.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "b5ff5572-df9a-4afd-a805-75a31c6e14d6",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-07-17T18:40:07+00:00",
+              "raw_text": "Report tell direction his thought article piece Republican television similar many with.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "b05703c7-a746-4d48-b7e0-5d5bede23be4",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-10-25T20:30:58+00:00",
+              "raw_text": "Expect send always kitchen industry mouth smile use.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "b86337b6-e05e-45ec-8528-1d7dfe7529fa",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-04-08T11:16:14+00:00",
+              "raw_text": "Report tell direction his thought article piece Republican television similar many with.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "4d23c473-31dd-4b91-ab62-c3b6fc72a33a",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-12-15T13:38:20+00:00",
+              "raw_text": "Source produce perform government despite set how establish will child ago law participant require former.",
+              "category": "DRUGS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "67065f14-984d-41ba-9089-91c13763dc8e",
+      "primary_handle": "crypt23",
+      "first_seen": "2022-07-09T09:40:19+00:00",
+      "last_seen": "2025-10-14T21:26:10+00:00",
+      "confidence_score": 96.82,
+      "risk_category": "ARMS",
+      "style_template": "unique",
+      "notes": "Synthetic actor #14 — Explain own word wish.",
+      "aliases": [
+        {
+          "id": "340c889f-28fc-49ab-9ecb-1691dac63ff3",
+          "handle": "crypt23",
+          "platform": "CipherForum",
+          "active_from": "2023-10-30T06:44:18+00:00",
+          "active_to": "2024-02-27T13:02:30+00:00",
+          "identifiers": [
+            {
+              "id": "0d4b6007-ff3e-44a9-9978-b4cf5f8e7115",
+              "type": "WALLET_ETH",
+              "value": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+              "first_seen": "2023-10-30T06:44:18+00:00"
+            },
+            {
+              "id": "d647aa85-d50f-4da5-b2d1-61ddd2ba7df2",
+              "type": "WALLET_BTC",
+              "value": "bc1qfec9wmmt5ak687nyg0aev7e7mm852t2aotnuyl",
+              "first_seen": "2023-10-30T06:44:18+00:00"
+            },
+            {
+              "id": "57146031-0f7d-483f-a020-2ca217dfb7c5",
+              "type": "WALLET_ETH",
+              "value": "0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
+              "first_seen": "2023-10-05T11:10:36+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "516d598d-eb31-4830-97bc-ce2cbc231303",
+              "platform": "CipherForum",
+              "timestamp": "2025-09-02T10:35:51+00:00",
+              "raw_text": "Such recent manager six.",
+              "category": "ARMS"
+            },
+            {
+              "id": "574e4990-0f23-408c-8b3a-d7db71e27b37",
+              "platform": "CipherForum",
+              "timestamp": "2023-01-26T08:16:50+00:00",
+              "raw_text": "Such recent manager six.",
+              "category": "ARMS"
+            },
+            {
+              "id": "e70fa6f1-003a-496f-83d9-0e63f367228d",
+              "platform": "CipherForum",
+              "timestamp": "2024-12-25T04:41:12+00:00",
+              "raw_text": "Season radio quality size include there share reflect down.",
+              "category": "ARMS"
+            },
+            {
+              "id": "a3f42cb5-6515-412a-a489-b93281d3e076",
+              "platform": "CipherForum",
+              "timestamp": "2024-02-07T21:49:08+00:00",
+              "raw_text": "Employee place plant its nation beat yourself play painting in husband never billion.",
+              "category": "ARMS"
+            }
+          ]
+        },
+        {
+          "id": "2d32fe0e-f0c5-4bbe-97ab-a06da0c337c2",
+          "handle": "shadow23",
+          "platform": "Nighthawk Market",
+          "active_from": "2022-10-29T01:23:26+00:00",
+          "active_to": "2025-06-08T11:36:35+00:00",
+          "identifiers": [
+            {
+              "id": "f1af305b-2829-45f6-8b73-953c6c1df2b2",
+              "type": "PGP_KEY",
+              "value": "47D67401FF57EB3B1A5B959708D27BBF6F6CD600",
+              "first_seen": "2022-10-29T01:23:26+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "54b087da-490a-4ab1-87c6-fede68f0b284",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-08-14T19:33:11+00:00",
+              "raw_text": "Somebody dream live fear safe usually some bar sing meet good image development tough.",
+              "category": "ARMS"
+            },
+            {
+              "id": "aa14b586-91f4-40e3-93a0-22295ec01c80",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-11-05T07:44:11+00:00",
+              "raw_text": "Recent mouth Mr idea force visit source build red.",
+              "category": "ARMS"
+            },
+            {
+              "id": "51e2d55a-f391-4348-8e27-1bddd3217120",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-02-23T13:44:44+00:00",
+              "raw_text": "Season radio quality size include there share reflect down.",
+              "category": "ARMS"
+            },
+            {
+              "id": "2c5500bc-9fa3-4cd4-8abe-0cc700bf6552",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-09-29T19:22:58+00:00",
+              "raw_text": "Recent mouth Mr idea force visit source build red.",
+              "category": "ARMS"
+            },
+            {
+              "id": "0c0cf180-e51e-434e-9985-165f781e6f87",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-02-22T14:00:31+00:00",
+              "raw_text": "Recent mouth Mr idea force visit source build red.",
+              "category": "ARMS"
+            },
+            {
+              "id": "b1e7674c-7b1b-4dda-b4a0-9385dc020e37",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-07-29T11:23:25+00:00",
+              "raw_text": "Trouble environment white everyone simply find among arrive suddenly.",
+              "category": "ARMS"
+            }
+          ]
+        },
+        {
+          "id": "b4b2bb0b-4257-4cc2-9653-114c27fbc12e",
+          "handle": "omega55",
+          "platform": "VaultBazaar",
+          "active_from": "2023-05-16T18:49:38+00:00",
+          "active_to": "2025-12-16T12:22:30+00:00",
+          "identifiers": [
+            {
+              "id": "6723784a-7096-4c48-9cdf-63cc7fa7f92b",
+              "type": "WALLET_BTC",
+              "value": "bc1qoay2msvxsydvl0ps18uuwpids0eomytqpw2i3n",
+              "first_seen": "2023-05-16T18:49:38+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "1a53d044-360e-441e-923d-af347299b222",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-04-17T11:25:55+00:00",
+              "raw_text": "Such recent manager six.",
+              "category": "ARMS"
+            },
+            {
+              "id": "a2515cdd-0039-4779-ae85-a07ff19e4281",
+              "platform": "VaultBazaar",
+              "timestamp": "2025-10-18T07:07:28+00:00",
+              "raw_text": "Five fly ready.",
+              "category": "ARMS"
+            },
+            {
+              "id": "d00db1dd-bb35-401e-8e33-b19d8ecc04f4",
+              "platform": "VaultBazaar",
+              "timestamp": "2025-03-28T15:29:48+00:00",
+              "raw_text": "Open guess after.",
+              "category": "ARMS"
+            },
+            {
+              "id": "61b02383-c1ef-405b-9419-b600abab248c",
+              "platform": "VaultBazaar",
+              "timestamp": "2025-10-01T02:06:40+00:00",
+              "raw_text": "Cell through task partner executive answer even down defense sea front artist.",
+              "category": "ARMS"
+            },
+            {
+              "id": "ee5fe94d-cffb-4545-b71e-63b961e06db0",
+              "platform": "VaultBazaar",
+              "timestamp": "2023-08-07T12:15:56+00:00",
+              "raw_text": "East let forward stop family concern manager.",
+              "category": "ARMS"
+            },
+            {
+              "id": "d9efaabb-daa3-4daa-863b-8e4a6feebaf4",
+              "platform": "VaultBazaar",
+              "timestamp": "2025-04-11T16:47:50+00:00",
+              "raw_text": "Five fly ready.",
+              "category": "ARMS"
+            }
+          ]
+        },
+        {
+          "id": "3e26f7cc-256b-4ba1-bd0a-1275c6634d0c",
+          "handle": "zero_7",
+          "platform": "SilkRoute2",
+          "active_from": "2023-10-20T06:54:30+00:00",
+          "active_to": "2024-03-11T21:48:23+00:00",
+          "identifiers": [
+            {
+              "id": "9c8f4d37-a042-44b2-88fc-42c013cbc42e",
+              "type": "WALLET_BTC",
+              "value": "bc1q4fhbkj3pybn0amf4jqy2jw683rj8guh2lny2cg",
+              "first_seen": "2023-10-20T06:54:30+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "4b90f22d-4da4-46ad-8021-0f4bfefffa71",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-04-04T00:11:21+00:00",
+              "raw_text": "Such recent manager six.",
+              "category": "ARMS"
+            },
+            {
+              "id": "b271f91a-3377-40ac-bf6f-9a5db7c8aee5",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-04-04T21:49:51+00:00",
+              "raw_text": "Such recent manager six.",
+              "category": "ARMS"
+            },
+            {
+              "id": "0242f95b-3e80-4aaf-b6c9-3529e025f264",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-01-21T18:41:37+00:00",
+              "raw_text": "Southern share degree nor challenge window day drive hundred.",
+              "category": "ARMS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bc63bc6a-0d34-405e-aca4-cc42c150b656",
+      "primary_handle": "venom11",
+      "first_seen": "2023-11-12T19:05:14+00:00",
+      "last_seen": "2025-08-06T14:46:02+00:00",
+      "confidence_score": 34.04,
+      "risk_category": "DATA",
+      "style_template": "unique",
+      "notes": "Synthetic actor #15 — Notice can begin nature economy without land interest.",
+      "aliases": [
+        {
+          "id": "75a6d4fb-8496-4794-882c-be40a073ccc2",
+          "handle": "venom11",
+          "platform": "CipherForum",
+          "active_from": "2022-07-23T08:12:11+00:00",
+          "active_to": "2024-06-27T21:39:06+00:00",
+          "identifiers": [
+            {
+              "id": "a71cc6f8-3998-49a6-aa45-8cb2deb236f8",
+              "type": "EMAIL_HASH",
+              "value": "a0571feef2e0c01b028c8acfcacf920b92136b2ed31278da659e423154de3a15",
+              "first_seen": "2022-07-23T08:12:11+00:00"
+            },
+            {
+              "id": "6183ea33-478b-4d5b-b6e9-c9ca937be612",
+              "type": "PGP_KEY",
+              "value": "019B48476C5340F116DC32E5CF4F89B18F157737",
+              "first_seen": "2023-11-12T19:05:14+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "f7c39346-9c1b-4135-988b-c872db598dbd",
+              "platform": "CipherForum",
+              "timestamp": "2025-01-10T01:27:32+00:00",
+              "raw_text": "Class issue would summer officer model reality member step.",
+              "category": "DATA"
+            },
+            {
+              "id": "0f5bc185-2aed-4b7d-92d9-cee1c982cccb",
+              "platform": "CipherForum",
+              "timestamp": "2025-07-29T15:05:40+00:00",
+              "raw_text": "List know both so cold mother meeting which above power trip be what nearly her.",
+              "category": "DATA"
+            },
+            {
+              "id": "edc2ce6e-1188-4f3b-ba4b-b4524239ba32",
+              "platform": "CipherForum",
+              "timestamp": "2024-07-09T02:31:19+00:00",
+              "raw_text": "Explain lawyer night recently general teacher yard any clear receive.",
+              "category": "DATA"
+            },
+            {
+              "id": "d906441f-e336-41f9-b3c0-6e332e6320ae",
+              "platform": "CipherForum",
+              "timestamp": "2024-03-08T11:26:16+00:00",
+              "raw_text": "Show any live office perform smile tell finally.",
+              "category": "DATA"
+            },
+            {
+              "id": "c760d085-9fbf-45ff-a7db-7ccfde06c603",
+              "platform": "CipherForum",
+              "timestamp": "2023-01-18T20:07:35+00:00",
+              "raw_text": "Could reach true indicate itself officer he meeting western among always end.",
+              "category": "DATA"
+            }
+          ]
+        },
+        {
+          "id": "1eb215f3-5bfd-468f-8a65-30aa1d1c1dc5",
+          "handle": "storm_z",
+          "platform": "AgoraX",
+          "active_from": "2023-03-12T03:29:15+00:00",
+          "active_to": "2025-01-31T01:07:18+00:00",
+          "identifiers": [
+            {
+              "id": "a85aff9e-e441-4bad-a69d-e1e3b876879e",
+              "type": "PGP_KEY",
+              "value": "A595D984B4ABA5FB048CA274216D9A3033CAAE70",
+              "first_seen": "2023-03-12T03:29:15+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "890e5839-7e43-4c4a-b862-cdddc36e49cf",
+              "platform": "AgoraX",
+              "timestamp": "2024-11-15T20:17:20+00:00",
+              "raw_text": "Bed born entire turn event firm big job yet success local marriage usually suddenly poor training member.",
+              "category": "DATA"
+            },
+            {
+              "id": "fb4f9b91-f65b-4859-a0c3-707f69db608b",
+              "platform": "AgoraX",
+              "timestamp": "2023-11-17T13:34:21+00:00",
+              "raw_text": "Class issue would summer officer model reality member step.",
+              "category": "DATA"
+            },
+            {
+              "id": "646f05df-15bb-4097-8929-ffc495a69dcb",
+              "platform": "AgoraX",
+              "timestamp": "2024-09-01T23:41:57+00:00",
+              "raw_text": "Month late bring physical with particularly.",
+              "category": "DATA"
+            }
+          ]
+        },
+        {
+          "id": "486be14f-d877-49eb-8614-0cc83f9dc0fd",
+          "handle": "nova23",
+          "platform": "Nighthawk Market",
+          "active_from": "2022-08-27T19:52:51+00:00",
+          "active_to": "2025-03-31T05:04:48+00:00",
+          "identifiers": [
+            {
+              "id": "70ad9616-3fd3-4808-98d0-791c3cd4ec40",
+              "type": "PGP_KEY",
+              "value": "83CCCE94A93CF255B9F6D2FBCD17A6BE826F8F20",
+              "first_seen": "2022-08-27T19:52:51+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "9917707c-037d-4d8a-b77c-e4c4e6f85200",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-08-20T08:06:07+00:00",
+              "raw_text": "Bank court skill marriage hundred base risk never member around every statement activity girl name.",
+              "category": "DATA"
+            },
+            {
+              "id": "6926c9a8-0367-4aa4-8a52-f8988ce74cbd",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-06-02T21:18:22+00:00",
+              "raw_text": "Class issue would summer officer model reality member step.",
+              "category": "DATA"
+            },
+            {
+              "id": "375d61d0-3fb1-46f2-a007-9f89ccaa6d2a",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-09-15T11:47:26+00:00",
+              "raw_text": "Could reach true indicate itself officer he meeting western among always end.",
+              "category": "DATA"
+            },
+            {
+              "id": "5ec73062-3948-4ca4-a308-d539e58d5a14",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-11-05T12:15:41+00:00",
+              "raw_text": "List know both so cold mother meeting which above power trip be what nearly her.",
+              "category": "DATA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8d86928e-154f-43d6-a363-d848f840522e",
+      "primary_handle": "nexus88",
+      "first_seen": "2023-04-22T02:36:47+00:00",
+      "last_seen": "2025-09-30T07:25:06+00:00",
+      "confidence_score": 1.99,
+      "risk_category": "ARMS",
+      "style_template": "unique",
+      "notes": "Synthetic actor #16 — Power join you.",
+      "aliases": [
+        {
+          "id": "9d0d0ff0-2485-4b2d-b2f3-addb115f803a",
+          "handle": "nexus88",
+          "platform": "CipherForum",
+          "active_from": "2022-10-07T10:55:44+00:00",
+          "active_to": "2025-07-02T21:20:55+00:00",
+          "identifiers": [
+            {
+              "id": "cc9f2cab-f894-4ea4-af31-3eebfe4c724c",
+              "type": "PGP_KEY",
+              "value": "9C228EFB7388A36A6F6DCFB032EB2A8234B3001A",
+              "first_seen": "2022-10-07T10:55:44+00:00"
+            },
+            {
+              "id": "c1182f99-1927-4375-abe8-1791e45360b6",
+              "type": "PGP_KEY",
+              "value": "019B48476C5340F116DC32E5CF4F89B18F157737",
+              "first_seen": "2023-11-12T19:05:14+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "38b3c069-b477-472d-9463-001fc3e39cdb",
+              "platform": "CipherForum",
+              "timestamp": "2024-10-24T07:37:26+00:00",
+              "raw_text": "Follow cost own more four.",
+              "category": "ARMS"
+            },
+            {
+              "id": "fb76d199-e573-417a-9f5c-c7a91d09e64d",
+              "platform": "CipherForum",
+              "timestamp": "2025-05-11T18:09:29+00:00",
+              "raw_text": "Father can instead season night.",
+              "category": "ARMS"
+            },
+            {
+              "id": "b55b89fb-96a7-4665-a702-6d68f63d6838",
+              "platform": "CipherForum",
+              "timestamp": "2025-09-11T20:02:47+00:00",
+              "raw_text": "Impact now marriage late health memory green card likely hold state visit admit computer.",
+              "category": "ARMS"
+            },
+            {
+              "id": "be3074e6-cc4c-460f-ad33-2499ef13ea93",
+              "platform": "CipherForum",
+              "timestamp": "2023-12-06T14:28:39+00:00",
+              "raw_text": "Charge forget employee everybody season with happy trade leader drop forward.",
+              "category": "ARMS"
+            },
+            {
+              "id": "39d3e1d4-86f2-4f02-ae96-0c18bfc230af",
+              "platform": "CipherForum",
+              "timestamp": "2023-01-15T14:58:33+00:00",
+              "raw_text": "Father can instead season night.",
+              "category": "ARMS"
+            },
+            {
+              "id": "d6b7677f-f67c-4b0e-a20f-52acc78bbda2",
+              "platform": "CipherForum",
+              "timestamp": "2025-02-06T18:24:31+00:00",
+              "raw_text": "Pick seek end exactly activity market rest rise similar player far question guy her popular.",
+              "category": "ARMS"
+            }
+          ]
+        },
+        {
+          "id": "4efac2eb-cf0f-425f-a094-89abc004cdec",
+          "handle": "hex_v2",
+          "platform": "VaultBazaar",
+          "active_from": "2022-04-28T15:17:23+00:00",
+          "active_to": "2024-07-14T17:18:19+00:00",
+          "identifiers": [
+            {
+              "id": "90895c7e-c79d-49d1-b5cf-ccd8395f2217",
+              "type": "EMAIL_HASH",
+              "value": "e3cc25af3f704d8fe62541c05d0d5f0b3a96b9f7ac723f0df93f2447ab7467c4",
+              "first_seen": "2022-04-28T15:17:23+00:00"
+            },
+            {
+              "id": "405d1e3b-d93b-466f-98cc-0c9a67958f36",
+              "type": "WALLET_ETH",
+              "value": "0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
+              "first_seen": "2022-04-28T15:17:23+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "433c7514-696c-4c4e-a4ef-b9040a446ed7",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-10-11T04:21:15+00:00",
+              "raw_text": "Throw accept again worry must record north after piece north reason those during lot word.",
+              "category": "ARMS"
+            },
+            {
+              "id": "fb68e975-84b4-406d-a00a-fb98a403575f",
+              "platform": "VaultBazaar",
+              "timestamp": "2025-02-14T16:06:47+00:00",
+              "raw_text": "Impact now marriage late health memory green card likely hold state visit admit computer.",
+              "category": "ARMS"
+            },
+            {
+              "id": "2a946201-c2ca-41c6-875a-5cc87a91ac0d",
+              "platform": "VaultBazaar",
+              "timestamp": "2023-04-21T08:55:45+00:00",
+              "raw_text": "Follow cost own more four.",
+              "category": "ARMS"
+            }
+          ]
+        },
+        {
+          "id": "4e1b9573-fd4d-45f3-98a7-4d9bcbddfd55",
+          "handle": "zero11",
+          "platform": "SilkRoute2",
+          "active_from": "2023-07-05T18:51:17+00:00",
+          "active_to": "2024-04-05T03:59:49+00:00",
+          "identifiers": [
+            {
+              "id": "c3368f4f-00f1-4baf-8eaf-602a9c98a2d1",
+              "type": "WALLET_BTC",
+              "value": "bc1qji0t6kp3yggqgdhhjd0ncto9cdbdld0r5rq94x",
+              "first_seen": "2023-07-05T18:51:17+00:00"
+            },
+            {
+              "id": "78a479f3-bbe6-4755-9b03-665efb43f4ca",
+              "type": "EMAIL_HASH",
+              "value": "5d6ce03546b92ee915b48e68e369e6f89424eb32f3c49b2c5b2fb16bb58de448",
+              "first_seen": "2023-07-05T18:51:17+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "e4959cbc-fb46-44a5-b853-0cf2e76bc041",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-11-25T10:21:50+00:00",
+              "raw_text": "Player then boy view piece.",
+              "category": "ARMS"
+            },
+            {
+              "id": "97c7624c-5efd-475b-b353-bb9f41481578",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-08-19T15:03:32+00:00",
+              "raw_text": "Follow cost own more four.",
+              "category": "ARMS"
+            },
+            {
+              "id": "51d2fa24-ed00-4b62-b468-16a8d1f92c78",
+              "platform": "SilkRoute2",
+              "timestamp": "2023-11-29T20:32:13+00:00",
+              "raw_text": "Choose possible above father stay when city toward between less policy cultural become.",
+              "category": "ARMS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ea9814dc-a256-4232-b05c-3e2e2d576a2f",
+      "primary_handle": "shadow_xo",
+      "first_seen": "2022-04-15T01:44:52+00:00",
+      "last_seen": "2025-07-25T13:16:54+00:00",
+      "confidence_score": 23.96,
+      "risk_category": "DRUGS",
+      "style_template": "minimalist",
+      "notes": "Synthetic actor #17 — Subject receive policy.",
+      "aliases": [
+        {
+          "id": "b1a1cac2-f196-4540-bef4-d82d0664db62",
+          "handle": "shadow_xo",
+          "platform": "Nighthawk Market",
+          "active_from": "2023-09-02T12:15:11+00:00",
+          "active_to": "2024-08-10T15:29:56+00:00",
+          "identifiers": [
+            {
+              "id": "05d4c1fb-24ed-44dc-a7db-2eb6bfc03bed",
+              "type": "EMAIL_HASH",
+              "value": "b8700acba4be1267fc382ed1ac9a6822476a8158ddab111aaf9c3a48bcd3369f",
+              "first_seen": "2023-09-02T12:15:11+00:00"
+            },
+            {
+              "id": "5054dd86-05ba-4567-a92b-e47ed38831c9",
+              "type": "WALLET_BTC",
+              "value": "bc1qg2l6iqboesppl3xah8lzvfnada4nxjgkkzn0op",
+              "first_seen": "2023-09-02T12:15:11+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "acb7b7d9-818c-44cf-873c-2927d5f3ce0f",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-01-25T17:10:13+00:00",
+              "raw_text": "fresh batch tmrw",
+              "category": "DRUGS"
+            },
+            {
+              "id": "4d9bb59f-7db1-4948-9d00-4883ae34dfcb",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-07-06T19:47:49+00:00",
+              "raw_text": "2fa enabled now",
+              "category": "DRUGS"
+            },
+            {
+              "id": "bce9e91b-22a5-4581-9f2b-abeea5769d29",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-08-19T12:09:11+00:00",
+              "raw_text": "use new wallet",
+              "category": "DRUGS"
+            },
+            {
+              "id": "2ac70bbf-3d2c-4c59-a1c7-f00fe9722121",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-06-05T13:34:23+00:00",
+              "raw_text": "review done",
+              "category": "DRUGS"
+            },
+            {
+              "id": "f0a02b5f-d519-4d66-9aa9-c4d8f6efa9b8",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-01-23T21:36:25+00:00",
+              "raw_text": "pgp verified",
+              "category": "DRUGS"
+            },
+            {
+              "id": "722114e5-27c7-4df4-9c7c-a57aeefe7bd5",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-05-27T23:07:13+00:00",
+              "raw_text": "shipped. check pgp.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "d4fd988d-405b-4b0d-ac60-cc0d45f0d904",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-01-02T13:40:58+00:00",
+              "raw_text": "restocked. limited.",
+              "category": "DRUGS"
+            }
+          ]
+        },
+        {
+          "id": "ffec7a07-dbf6-4ead-8545-abafe5dcd09c",
+          "handle": "phantom666",
+          "platform": "AgoraX",
+          "active_from": "2023-04-08T01:18:30+00:00",
+          "active_to": "2025-04-20T12:19:01+00:00",
+          "identifiers": [
+            {
+              "id": "c78aaf6d-4101-4b41-aa65-8324734f49be",
+              "type": "PGP_KEY",
+              "value": "EB096504CDB9E63C849B386DBAB61A55EAE2EEDA",
+              "first_seen": "2023-04-08T01:18:30+00:00"
+            },
+            {
+              "id": "bde9b07c-346a-4db8-be5f-5ddfdaa7b1ed",
+              "type": "WALLET_BTC",
+              "value": "bc1qts7w7sr6uq5ul7hyu9ai95hb23mqxrmesua6p2",
+              "first_seen": "2023-04-08T01:18:30+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "648ce773-7bcb-418d-b8e8-0ef925969190",
+              "platform": "AgoraX",
+              "timestamp": "2024-11-01T20:22:29+00:00",
+              "raw_text": "vouch confirmed",
+              "category": "DRUGS"
+            },
+            {
+              "id": "74082483-6e96-4196-aab0-f6c0b880089a",
+              "platform": "AgoraX",
+              "timestamp": "2024-08-02T07:00:44+00:00",
+              "raw_text": "tracking sent via pgp",
+              "category": "DRUGS"
+            },
+            {
+              "id": "5f4aef82-8e94-4e31-a97a-01aa47152917",
+              "platform": "AgoraX",
+              "timestamp": "2024-02-07T04:34:57+00:00",
+              "raw_text": "product tested. legit.",
+              "category": "DRUGS"
+            },
+            {
+              "id": "2d4c1fb6-0377-4213-91cd-4fc0f2a268a5",
+              "platform": "AgoraX",
+              "timestamp": "2023-02-19T08:38:09+00:00",
+              "raw_text": "dm for samples",
+              "category": "DRUGS"
+            },
+            {
+              "id": "1f0334eb-9b4e-43c2-b2ef-9a8373d18778",
+              "platform": "AgoraX",
+              "timestamp": "2023-01-03T08:50:39+00:00",
+              "raw_text": "moved to new market",
+              "category": "DRUGS"
+            },
+            {
+              "id": "d3fbdc16-52f2-4e74-b19d-f92913fcf475",
+              "platform": "AgoraX",
+              "timestamp": "2025-02-18T09:21:11+00:00",
+              "raw_text": "review done",
+              "category": "DRUGS"
+            },
+            {
+              "id": "d5d91213-7966-4074-b7a7-63fe65b01a1b",
+              "platform": "AgoraX",
+              "timestamp": "2025-12-29T19:47:37+00:00",
+              "raw_text": "in stock. dm.",
+              "category": "DRUGS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d65bdf15-3e9d-49bc-b205-471b20f46381",
+      "primary_handle": "frost666",
+      "first_seen": "2022-01-24T12:51:28+00:00",
+      "last_seen": "2025-02-02T06:53:09+00:00",
+      "confidence_score": 88.52,
+      "risk_category": "ARMS",
+      "style_template": "verbose",
+      "notes": "Synthetic actor #18 — Amount participant rather star participant Republican professional.",
+      "aliases": [
+        {
+          "id": "d584853f-7307-4b0f-a925-987f58b4511b",
+          "handle": "frost666",
+          "platform": "VaultBazaar",
+          "active_from": "2022-12-31T14:42:17+00:00",
+          "active_to": "2025-05-04T00:52:50+00:00",
+          "identifiers": [
+            {
+              "id": "106ecc84-9552-4bbc-b3c5-0a98493dbb21",
+              "type": "WALLET_BTC",
+              "value": "bc1qluq22eyl7dopv429o2j0tz7eh7jzidjjtu72cj",
+              "first_seen": "2022-12-31T14:42:17+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "fcc38f47-ff8a-4177-a2ec-85b91942deee",
+              "platform": "VaultBazaar",
+              "timestamp": "2023-02-24T15:10:52+00:00",
+              "raw_text": "I would like to request a bulk discount on the items currently listed in category seven. My previous transaction history should speak to my reliability and trustworthiness as a buyer on this platform.",
+              "category": "ARMS"
+            },
+            {
+              "id": "6f279230-ee49-4450-b5cb-e1766c0bf6ae",
+              "platform": "VaultBazaar",
+              "timestamp": "2025-06-28T03:39:44+00:00",
+              "raw_text": "The encryption protocols employed by this marketplace are commendable. I recommend all users verify PGP signatures before completing any transaction to ensure authenticity and prevent impersonation.",
+              "category": "ARMS"
+            },
+            {
+              "id": "8a674f75-3bc1-445a-9718-ac9d840a2ac2",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-06-06T06:33:07+00:00",
+              "raw_text": "I have been a member of this community for approximately eighteen months and have consistently maintained a perfect feedback rating across all of my transactions without exception.",
+              "category": "ARMS"
+            },
+            {
+              "id": "e7e7df32-9ff1-4be4-a4ea-c5e9193ebd6b",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-05-20T22:59:46+00:00",
+              "raw_text": "All communications regarding sensitive matters should be conducted exclusively through PGP-encrypted channels. My public key is available on multiple keyservers for cross-verification purposes.",
+              "category": "ARMS"
+            },
+            {
+              "id": "96c3853f-1af9-4c24-9d0f-5a379505b747",
+              "platform": "VaultBazaar",
+              "timestamp": "2024-03-08T18:03:56+00:00",
+              "raw_text": "I appreciate the community's continued trust in my services. Rest assured that maintaining the highest standards of product quality and customer satisfaction remains my absolute top priority.",
+              "category": "ARMS"
+            },
+            {
+              "id": "c2a70581-751b-4626-9061-076e9389b049",
+              "platform": "VaultBazaar",
+              "timestamp": "2025-04-06T20:07:14+00:00",
+              "raw_text": "After careful analysis of multiple vendors, I have concluded that this particular offering represents the best value proposition currently available on this marketplace.",
+              "category": "ARMS"
+            },
+            {
+              "id": "f3860016-f517-42dc-91e9-d4e7b75e7dbb",
+              "platform": "VaultBazaar",
+              "timestamp": "2023-01-17T23:37:01+00:00",
+              "raw_text": "I have been a member of this community for approximately eighteen months and have consistently maintained a perfect feedback rating across all of my transactions without exception.",
+              "category": "ARMS"
+            }
+          ]
+        },
+        {
+          "id": "3322e2ec-2846-4283-b765-34cbcaeab5bc",
+          "handle": "dark11",
+          "platform": "SilkRoute2",
+          "active_from": "2022-09-30T19:57:03+00:00",
+          "active_to": "2025-09-17T23:09:36+00:00",
+          "identifiers": [
+            {
+              "id": "1c769a4e-249d-47c1-8332-4a1ee3082b93",
+              "type": "WALLET_BTC",
+              "value": "bc1qepn9tma0it7t2s0j1rx95l2iw8ekl5e7ylgwav",
+              "first_seen": "2022-09-30T19:57:03+00:00"
+            },
+            {
+              "id": "facca4bc-e076-42ed-8f9a-13164675a53e",
+              "type": "EMAIL_HASH",
+              "value": "7b3821677a507970d05648ffb22dc56540d4dc490223d4410a45f60caff39fa1",
+              "first_seen": "2022-09-30T19:57:03+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "3521d9ef-0be7-425c-b8e8-be4915e71297",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-11-07T20:14:45+00:00",
+              "raw_text": "Please note that my shipping schedule has been updated. All orders placed before midnight UTC will be processed within forty-eight hours and shipped via standard discreet packaging.",
+              "category": "ARMS"
+            },
+            {
+              "id": "2e6597c1-1703-4e35-884b-2302f0570bf6",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-04-15T08:29:53+00:00",
+              "raw_text": "I have been a member of this community for approximately eighteen months and have consistently maintained a perfect feedback rating across all of my transactions without exception.",
+              "category": "ARMS"
+            },
+            {
+              "id": "34086872-b0f9-4afb-9406-a428d43c94bb",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-06-14T19:29:24+00:00",
+              "raw_text": "I would like to request a bulk discount on the items currently listed in category seven. My previous transaction history should speak to my reliability and trustworthiness as a buyer on this platform.",
+              "category": "ARMS"
+            },
+            {
+              "id": "ffe4585a-437e-4572-b035-270eeea82239",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-10-26T17:23:24+00:00",
+              "raw_text": "The encryption protocols employed by this marketplace are commendable. I recommend all users verify PGP signatures before completing any transaction to ensure authenticity and prevent impersonation.",
+              "category": "ARMS"
+            },
+            {
+              "id": "89c3efff-3fdf-4324-950e-46a3690acb3a",
+              "platform": "SilkRoute2",
+              "timestamp": "2024-04-20T21:42:58+00:00",
+              "raw_text": "Having conducted extensive research into the current market dynamics, I believe pricing adjustments are warranted. Please refer to my updated listing for revised terms and conditions.",
+              "category": "ARMS"
+            },
+            {
+              "id": "2da3332b-9a46-469d-a021-df9f590067df",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-05-15T06:28:47+00:00",
+              "raw_text": "I have thoroughly verified the quality of this product and can confirm it meets all stated specifications. Shipping was discreet and fully tracked through the marketplace escrow system.",
+              "category": "ARMS"
+            },
+            {
+              "id": "356b458f-04ed-4597-87fe-493be7d8899f",
+              "platform": "SilkRoute2",
+              "timestamp": "2025-09-15T01:40:14+00:00",
+              "raw_text": "I would strongly advise against using unverified escrow services. Always confirm that the multisig wallet address matches the one posted in the vendor's verified PGP-signed profile.",
+              "category": "ARMS"
+            }
+          ]
+        },
+        {
+          "id": "da4d9ca3-e9d3-4a9c-9975-ecb4e04547e1",
+          "handle": "flux_404",
+          "platform": "AgoraX",
+          "active_from": "2022-10-28T14:26:32+00:00",
+          "active_to": "2024-03-19T23:03:56+00:00",
+          "identifiers": [
+            {
+              "id": "91b2100b-4c8a-4dd9-8351-305a55b4a583",
+              "type": "PGP_KEY",
+              "value": "0F6681438B88CD9E2ABAF45A546CC84EDCF0D19D",
+              "first_seen": "2022-10-28T14:26:32+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "f4fe8560-45b4-49f9-b49b-6de35994dc09",
+              "platform": "AgoraX",
+              "timestamp": "2025-04-24T05:16:13+00:00",
+              "raw_text": "My operational security practices include rotating wallet addresses every seventy-two hours and utilizing dedicated hardware for all marketplace-related communications.",
+              "category": "ARMS"
+            },
+            {
+              "id": "a6b58174-5666-4468-8f90-0981697a7b82",
+              "platform": "AgoraX",
+              "timestamp": "2024-07-24T14:42:59+00:00",
+              "raw_text": "All communications regarding sensitive matters should be conducted exclusively through PGP-encrypted channels. My public key is available on multiple keyservers for cross-verification purposes.",
+              "category": "ARMS"
+            },
+            {
+              "id": "d8febb45-fe6d-49cc-ad52-b416a9eb2a17",
+              "platform": "AgoraX",
+              "timestamp": "2025-08-24T04:41:44+00:00",
+              "raw_text": "The latest batch underwent rigorous quality assurance testing at three independent stages before being listed. Certificates of analysis are available upon request via encrypted channels.",
+              "category": "ARMS"
+            },
+            {
+              "id": "bed6cfac-7b55-40bd-be09-c2ec922dec4d",
+              "platform": "AgoraX",
+              "timestamp": "2023-05-21T11:47:54+00:00",
+              "raw_text": "All communications regarding sensitive matters should be conducted exclusively through PGP-encrypted channels. My public key is available on multiple keyservers for cross-verification purposes.",
+              "category": "ARMS"
+            },
+            {
+              "id": "07e85abf-2989-4970-9813-4a497d550d8c",
+              "platform": "AgoraX",
+              "timestamp": "2025-05-26T07:33:10+00:00",
+              "raw_text": "I have thoroughly verified the quality of this product and can confirm it meets all stated specifications. Shipping was discreet and fully tracked through the marketplace escrow system.",
+              "category": "ARMS"
+            },
+            {
+              "id": "4b4acc80-201e-4e24-b97d-94a51cadf914",
+              "platform": "AgoraX",
+              "timestamp": "2024-11-29T08:39:27+00:00",
+              "raw_text": "Having conducted extensive research into the current market dynamics, I believe pricing adjustments are warranted. Please refer to my updated listing for revised terms and conditions.",
+              "category": "ARMS"
+            },
+            {
+              "id": "66afb450-dd75-4a70-b852-7fc0dcd40c1f",
+              "platform": "AgoraX",
+              "timestamp": "2023-02-18T00:33:40+00:00",
+              "raw_text": "Having conducted extensive research into the current market dynamics, I believe pricing adjustments are warranted. Please refer to my updated listing for revised terms and conditions.",
+              "category": "ARMS"
+            }
+          ]
+        },
+        {
+          "id": "8b5bf284-137c-4cab-83c2-0fbe6a3a424f",
+          "handle": "apex11",
+          "platform": "Nighthawk Market",
+          "active_from": "2022-05-18T01:58:04+00:00",
+          "active_to": "2025-01-29T03:35:43+00:00",
+          "identifiers": [
+            {
+              "id": "f4aa782e-887c-49df-9bfe-7c7cb1f6c8f8",
+              "type": "WALLET_ETH",
+              "value": "0x28C6c06298d514Db089934071355E5743bf21d60",
+              "first_seen": "2022-05-18T01:58:04+00:00"
+            },
+            {
+              "id": "5b5a1fb2-0453-4acd-843f-ec74508b01d7",
+              "type": "WALLET_BTC",
+              "value": "bc1qgmqybcgnidoywci07xtsrajkqkjglx33z87zaw",
+              "first_seen": "2022-05-18T01:58:04+00:00"
+            }
+          ],
+          "posts": [
+            {
+              "id": "82e1d0c1-b086-48b3-b1dd-6767a6b25fc0",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-02-22T13:47:34+00:00",
+              "raw_text": "I would strongly advise against using unverified escrow services. Always confirm that the multisig wallet address matches the one posted in the vendor's verified PGP-signed profile.",
+              "category": "ARMS"
+            },
+            {
+              "id": "6471285e-ba86-44da-9c96-f41f937a30d4",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-11-01T22:35:07+00:00",
+              "raw_text": "The encryption protocols employed by this marketplace are commendable. I recommend all users verify PGP signatures before completing any transaction to ensure authenticity and prevent impersonation.",
+              "category": "ARMS"
+            },
+            {
+              "id": "a65e5b94-11cd-4a48-8bac-a275e6d47e72",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-03-01T01:59:57+00:00",
+              "raw_text": "Please note that my shipping schedule has been updated. All orders placed before midnight UTC will be processed within forty-eight hours and shipped via standard discreet packaging.",
+              "category": "ARMS"
+            },
+            {
+              "id": "9037afd2-16ff-4110-b111-fc1aea75f71f",
+              "platform": "Nighthawk Market",
+              "timestamp": "2025-12-24T03:24:42+00:00",
+              "raw_text": "For those interested in establishing a long-term business relationship, I offer preferential pricing tiers based on cumulative order volume and demonstrated reliability over time.",
+              "category": "ARMS"
+            },
+            {
+              "id": "171b3ce3-ef9f-4d56-85b5-84663f29f1be",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-05-20T17:48:04+00:00",
+              "raw_text": "Having conducted extensive research into the current market dynamics, I believe pricing adjustments are warranted. Please refer to my updated listing for revised terms and conditions.",
+              "category": "ARMS"
+            },
+            {
+              "id": "aaa9fd85-ddf0-438b-809a-4d969098de92",
+              "platform": "Nighthawk Market",
+              "timestamp": "2023-03-11T06:50:11+00:00",
+              "raw_text": "The vendor provided excellent communication throughout the entire process. The product arrived exactly as described, was well-packaged, and delivered within the estimated delivery window.",
+              "category": "ARMS"
+            },
+            {
+              "id": "253c68d2-b8d4-4e15-a18d-14983b8dd211",
+              "platform": "Nighthawk Market",
+              "timestamp": "2024-04-18T07:28:32+00:00",
+              "raw_text": "The vendor provided excellent communication throughout the entire process. The product arrived exactly as described, was well-packaged, and delivered within the estimated delivery window.",
+              "category": "ARMS"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "onion_services": [
+    {
+      "onion_address": "tyyxwyytun6fcli6rj5py5vnhglujqixk4cfmvdiqqquqyorsjunwtad.onion",
+      "actor_id": "8d86928e-154f-43d6-a363-d848f840522e",
+      "actor_handle": "nexus88",
+      "ssl_fingerprint": "B1:05:C9:8D:3C:1E:67:2E:E9:FB:53:5A:6B:1D:70:20:44:6D:10:31",
+      "server_banner": "nginx/1.23.0"
+    },
+    {
+      "onion_address": "ygzpfebh4ohiqsxykczd2xjy4zt3bbjmrx54tq3k7oirsrfopcrsznnu.onion",
+      "actor_id": "29880b84-c04f-49db-bdec-c5c3a544d1bc",
+      "actor_handle": "dark13",
+      "ssl_fingerprint": "EC:84:93:16:77:26:ED:D8:87:28:56:81:BD:38:90:F1:A2:81:07:1E",
+      "server_banner": "Apache/2.4.57 (Debian)"
+    },
+    {
+      "onion_address": "6qrzsuaxom2yjl76zuwwwtxiwbz5utzqdxtfxcwqvt77a6rnevxdiocz.onion",
+      "actor_id": "d65bdf15-3e9d-49bc-b205-471b20f46381",
+      "actor_handle": "frost666",
+      "ssl_fingerprint": "4F:EA:0D:C7:6E:A9:DA:DE:3A:A7:A8:EA:9E:4E:27:12:D6:12:E4:2E",
+      "server_banner": "nginx/1.23.4"
+    },
+    {
+      "onion_address": "vikiqobfhfbl4hxqtvppcv4tfz4kdql2ah6t2eeyxy2nyahmza7qewrw.onion",
+      "actor_id": "a628f222-b2b8-4acd-b11d-faa970a48a76",
+      "actor_handle": "spectre33",
+      "ssl_fingerprint": "DE:0F:27:0B:00:CE:4A:22:65:1A:61:63:6B:14:47:AE:5B:BD:21:A5",
+      "server_banner": "lighttpd/1.5.3"
+    },
+    {
+      "onion_address": "zddcyhctya6nlbkflwadi4ikriottwmv27ti3nx4j64m6yck63yjtzsc.onion",
+      "actor_id": "bc63bc6a-0d34-405e-aca4-cc42c150b656",
+      "actor_handle": "venom11",
+      "ssl_fingerprint": "88:73:90:6D:85:F6:77:9B:B4:0B:55:14:02:FC:3B:2C:E8:36:80:62",
+      "server_banner": "lighttpd/1.4.2"
+    }
+  ],
+  "ground_truth": {
+    "shared_identifier_pairs": [
+      {
+        "actor_a_id": "0264e794-80d4-45a5-90f8-3d102e3fe039",
+        "actor_a_handle": "spectre55",
+        "actor_b_id": "580bd468-4c37-4fbe-9db3-d675b6b11cb0",
+        "actor_b_handle": "blade88",
+        "shared_identifier_type": "PGP_KEY",
+        "shared_identifier_value": "892CA6BB5FB81686AF223A6ED91C79B8387ABA1D"
+      },
+      {
+        "actor_a_id": "8708cddc-4430-43b3-954e-248706c77568",
+        "actor_a_handle": "ember666",
+        "actor_b_id": "4364e7ce-e0fe-485d-96c4-02d81126c3f7",
+        "actor_b_handle": "venom23",
+        "shared_identifier_type": "WALLET_BTC",
+        "shared_identifier_value": "bc1qyft5aeqle1ifvhyjlnlh1j2lskd8p4acjmb3al"
+      },
+      {
+        "actor_a_id": "fc760099-19ed-4367-b112-52551d2bec3e",
+        "actor_a_handle": "nexus23",
+        "actor_b_id": "14284c8c-5ec9-447c-b1d9-36dacaa19193",
+        "actor_b_handle": "viper99",
+        "shared_identifier_type": "PGP_KEY",
+        "shared_identifier_value": "2AC7197E5F7F1AB477E7EA9083EC74AB116BB686"
+      },
+      {
+        "actor_a_id": "29880b84-c04f-49db-bdec-c5c3a544d1bc",
+        "actor_a_handle": "dark13",
+        "actor_b_id": "f27b922a-f08d-4022-b976-a3e3bccf7c26",
+        "actor_b_handle": "ghost_7",
+        "shared_identifier_type": "WALLET_ETH",
+        "shared_identifier_value": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+      },
+      {
+        "actor_a_id": "2b0bb9f2-e1de-4b75-861d-1273a074b10d",
+        "actor_a_handle": "flux88",
+        "actor_b_id": "dee06d26-a7a2-4405-95eb-470dd81a30aa",
+        "actor_b_handle": "flux12",
+        "shared_identifier_type": "WALLET_BTC",
+        "shared_identifier_value": "bc1q8ze3938bxbkw405ud9oa41xldp4762ivhfrzo3"
+      },
+      {
+        "actor_a_id": "edc27fd2-a4f1-453b-adf7-c36079f48c9a",
+        "actor_a_handle": "zero_01",
+        "actor_b_id": "b83114e4-edd0-4e42-b166-1bf0032f4eb2",
+        "actor_b_handle": "byte_z",
+        "shared_identifier_type": "PGP_KEY",
+        "shared_identifier_value": "675232CC64631F83370EB8A0A4C70EB41F93EB4F"
+      },
+      {
+        "actor_a_id": "a628f222-b2b8-4acd-b11d-faa970a48a76",
+        "actor_a_handle": "spectre33",
+        "actor_b_id": "67065f14-984d-41ba-9089-91c13763dc8e",
+        "actor_b_handle": "crypt23",
+        "shared_identifier_type": "WALLET_ETH",
+        "shared_identifier_value": "0x098B716B8Aaf21512996dC57EB0615e2383E2f96"
+      },
+      {
+        "actor_a_id": "bc63bc6a-0d34-405e-aca4-cc42c150b656",
+        "actor_a_handle": "venom11",
+        "actor_b_id": "8d86928e-154f-43d6-a363-d848f840522e",
+        "actor_b_handle": "nexus88",
+        "shared_identifier_type": "PGP_KEY",
+        "shared_identifier_value": "019B48476C5340F116DC32E5CF4F89B18F157737"
+      }
+    ],
+    "rebranded_persona_pairs": [
+      {
+        "actor_a_id": "580bd468-4c37-4fbe-9db3-d675b6b11cb0",
+        "actor_a_handle": "blade88",
+        "actor_b_id": "ea9814dc-a256-4232-b05c-3e2e2d576a2f",
+        "actor_b_handle": "shadow_xo",
+        "shared_style": "minimalist"
+      },
+      {
+        "actor_a_id": "4364e7ce-e0fe-485d-96c4-02d81126c3f7",
+        "actor_a_handle": "venom23",
+        "actor_b_id": "d65bdf15-3e9d-49bc-b205-471b20f46381",
+        "actor_b_handle": "frost666",
+        "shared_style": "verbose"
+      },
+      {
+        "actor_a_id": "14284c8c-5ec9-447c-b1d9-36dacaa19193",
+        "actor_a_handle": "viper99",
+        "actor_b_id": "dee06d26-a7a2-4405-95eb-470dd81a30aa",
+        "actor_b_handle": "flux12",
+        "shared_style": "typo_heavy"
+      }
+    ],
+    "infra_leak_matches": [
+      {
+        "onion_address": "tyyxwyytun6fcli6rj5py5vnhglujqixk4cfmvdiqqquqyorsjunwtad.onion",
+        "actor_id": "8d86928e-154f-43d6-a363-d848f840522e",
+        "actor_handle": "nexus88",
+        "clearnet_ip": "185.220.101.42",
+        "clearnet_domain": "securehost-cdn.net",
+        "match_type": "SSL_CERT_MATCH",
+        "matched_value": "B1:05:C9:8D:3C:1E:67:2E:E9:FB:53:5A:6B:1D:70:20:44:6D:10:31"
+      },
+      {
+        "onion_address": "ygzpfebh4ohiqsxykczd2xjy4zt3bbjmrx54tq3k7oirsrfopcrsznnu.onion",
+        "actor_id": "29880b84-c04f-49db-bdec-c5c3a544d1bc",
+        "actor_handle": "dark13",
+        "clearnet_ip": "91.218.67.14",
+        "clearnet_domain": "cloud-relay-eu.com",
+        "match_type": "SERVER_BANNER",
+        "matched_value": "Apache/2.4.57 (Debian)"
+      },
+      {
+        "onion_address": "6qrzsuaxom2yjl76zuwwwtxiwbz5utzqdxtfxcwqvt77a6rnevxdiocz.onion",
+        "actor_id": "d65bdf15-3e9d-49bc-b205-471b20f46381",
+        "actor_handle": "frost666",
+        "clearnet_ip": "103.28.52.93",
+        "clearnet_domain": "asialink-hosting.io",
+        "match_type": "SSL_CERT_MATCH",
+        "matched_value": "4F:EA:0D:C7:6E:A9:DA:DE:3A:A7:A8:EA:9E:4E:27:12:D6:12:E4:2E"
+      }
+    ]
+  }
+}
