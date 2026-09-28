@@ -398,3 +398,9 @@ def export_dossier(actor_id: str, db: Session = Depends(get_db)):
     """
     return html
 
+
+@router.get("/api/intercepts")
+def get_intercepts(db: Session = Depends(get_db)):
+    rows = db.execute(text("SELECT p.raw_text, p.platform, p.timestamp, a.handle FROM posts p JOIN aliases a ON p.alias_id = a.id ORDER BY RANDOM() LIMIT 15")).fetchall()
+    return [{"text": r.raw_text, "platform": r.platform, "timestamp": r.timestamp, "handle": r.handle} for r in rows]
+

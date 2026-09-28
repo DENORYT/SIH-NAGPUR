@@ -229,9 +229,13 @@ eth_wallet_idx = 0
 
 def gen_eth() -> str:
     global eth_wallet_idx
-    wallet = REAL_ETH_WALLETS[eth_wallet_idx % len(REAL_ETH_WALLETS)]
-    eth_wallet_idx += 1
-    return wallet
+    # Only use the real whale wallets for the first 8 calls to guarantee they appear
+    # in the shared identifiers and key actors, then fallback to random to prevent mass linking
+    if eth_wallet_idx < 8:
+        wallet = REAL_ETH_WALLETS[eth_wallet_idx % len(REAL_ETH_WALLETS)]
+        eth_wallet_idx += 1
+        return wallet
+    return "0x" + "".join(random.choices("0123456789abcdef", k=40))
 
 
 def gen_email_hash() -> str:
@@ -419,7 +423,7 @@ def main():
     ]
 
     # ── Onion services (5 total, 3 match clearnet) ───────────
-    onion_actor_indices = random.sample(range(NUM_ACTORS), 5)
+    onion_actor_indices = list(range(NUM_ACTORS))
     onion_services: list[dict] = []
     gt_infra: list[dict] = []
 
@@ -427,8 +431,8 @@ def main():
         onion_addr = gen_onion()
         actor = actors[ai]
 
-        if oi < 3:  # matched onion
-            srv = clearnet_servers[oi]
+        if oi < 15:  # matched onion
+            srv = clearnet_servers[oi % len(clearnet_servers)]
             if oi % 2 == 0:                       # match on SSL cert
                 o_ssl = srv["ssl_fingerprint"]
                 o_banner = f"nginx/1.{random.randint(18, 25)}.{random.randint(0, 5)}"
@@ -526,3 +530,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

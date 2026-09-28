@@ -106,7 +106,7 @@ async function loadLeaks() {
         
         leaks.forEach(leak => {
             if (leak.evidence && leak.evidence.lat && leak.evidence.lng) {
-                L.marker([leak.evidence.lat, leak.evidence.lng])
+                L.marker([leak.evidence.lat, leak.evidence.lng], { icon: L.divIcon({ className: 'custom-pulse-marker', html: '<div class="w-3 h-3 bg-rose-500 rounded-full animate-pulse shadow-[0_0_15px_rgba(244,63,94,1)]"></div>', iconSize: [12, 12], iconAnchor: [6, 6] }) })
                  .addTo(geoMap)
                  .bindPopup(`<b>${leak.matched_clearnet_domain}</b><br>IP: ${leak.matched_clearnet_ip}<br>Type: ${leak.type}`);
             }
@@ -268,7 +268,7 @@ async function viewActor(actorId) {
         const res = await fetch(`${API_BASE}/actors/${actorId}`);
         const actor = await res.json();
         
-        document.getElementById('modal-title').innerText = `Dossier: ${actor.primary_handle}`;
+        scrambleText(document.getElementById('modal-title'), `Dossier: ${actor.primary_handle}`);
         document.getElementById('ai-briefing-content').innerHTML = '<span class="animate-pulse text-zinc-500">Generating intelligence summary...</span>';
         
         let leaksHtml = actor.related_leaks.map(l => `
@@ -624,4 +624,71 @@ function showNextBootMessage() {
 window.addEventListener("DOMContentLoaded", () => {
     setTimeout(showNextBootMessage, 500);
 });
+
+
+// Live Intercepts Logic
+async function initLiveIntercepts() {
+    const feed = document.getElementById("intercept-feed");
+    if (!feed) return;
+    
+    try {
+        const res = await fetch(`${API_BASE}/intercepts`);
+        const posts = await res.json();
+        let idx = 0;
+        
+        function appendIntercept() {
+            if (idx >= posts.length) idx = 0;
+            const post = posts[idx];
+            idx++;
+            
+            const div = document.createElement("div");
+            div.className = "text-brand-500/80 animate-fade-in border-l-2 border-brand-500/50 pl-3";
+            div.innerHTML = `
+                <div class="flex justify-between text-[10px] opacity-70 mb-1">
+                    <span>[${post.timestamp.split("T")[0]}] @${post.handle}</span>
+                    <span>SOURCE: ${post.platform}</span>
+                </div>
+                <div class="text-zinc-300">"${post.text}"</div>
+            `;
+            
+            feed.appendChild(div);
+            if (feed.children.length > 4) {
+                feed.removeChild(feed.firstChild);
+            }
+            
+            setTimeout(appendIntercept, Math.random() * 4000 + 2000);
+        }
+        appendIntercept();
+    } catch (e) {
+        console.error("Failed to load intercepts", e);
+    }
+}
+
+// Attach to loadDashboard
+const oldLoadDashboard = loadDashboard;
+loadDashboard = async function() {
+    await oldLoadDashboard();
+    initLiveIntercepts();
+};
+
+
+// Hacker Scramble Effect
+function scrambleText(element, finalString, duration = 800) {
+    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&*";
+    let iteration = 0;
+    const maxIterations = finalString.length;
+    const interval = setInterval(() => {
+        element.innerText = finalString.split("").map((letter, index) => {
+            if(index < iteration) return letter;
+            return chars[Math.floor(Math.random() * chars.length)];
+        }).join("");
+        
+        if(iteration >= maxIterations){
+            clearInterval(interval);
+        }
+        iteration += 1 / (duration / 50 / maxIterations);
+    }, 50);
+}
+
+
 
