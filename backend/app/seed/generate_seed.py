@@ -220,22 +220,22 @@ def gen_btc() -> str:
 
 
 REAL_ETH_WALLETS = [
-    "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045", # Vitalik Buterin
-    "0x098B716B8Aaf21512996dC57EB0615e2383E2f96", # Ronin Bridge Exploiter
-    "0x28C6c06298d514Db089934071355E5743bf21d60", # Binance Hot Wallet
-    "0x75e89d5979E4f6Fba9F97c104c2F0AFB3F1dcB88"  # Tether Treasury
+    "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045", "0x098B716B8Aaf21512996dC57EB0615e2383E2f96", "0x28C6c06298d514Db089934071355E5743bf21d60", "0x75e89d5979E4f6Fba9F97c104c2F0AFB3F1dcB88",
+    "0x761cd170bdcad886c9ab6f4325316ad84db097d0", "0xdac17f958d2ee523a2206206994597c13d831ec7", "0xff20817765cb7f73d4bde2e66e067e58d11095c2", "0xffc94c6d12dd84cc68c6b8219ff2a22004a3514c",
+    "0x51daed64a574f7ea6ab86edd9fe5e172bd639109", "0x18aaa7115705e8be94bffebde57af9bfc265b998", "0x28c6c06298d514db089934071355e5743bf21d60", "0x2873ed87dd252028350728b8b65256f0ff9fc227",
+    "0x5c8b31cc91b84cb554826ada05c9bda77f9e186c", "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055", "0x39e6a6028d8d2c58326392da1f867ce613f66ce5", "0x547524238113e3b0674dc47674ffd447668d273e",
+    "0x824238b6e65091860a576815f56c69f7d6baa770", "0x61f1da483fac44d5a9e28099e9cc22d28f1b42d3", "0xb91320efd342b0e74f18cc8745cd4c60bb80d586", "0xb187caab95301f3d3e38906e69f1682291710aa8",
+    "0xe77f981f77474d94f70d14e194db5427f5936af5", "0xecf5f8363835f6ed32c7f1776d5693eae76c5c8a", "0x57dac1c5664f3ed7499dac33c9dcce561aafb432", "0x0c42c882e77fbc959935ea2458a8ee5108a41093",
+    "0xbb08014d23836b007bdf0e1b2c9e3f2b7e8a006b", "0xc944e90c64b2c07662a292be6244bdf05cda44a7", "0x266cdcfc4c85b2781273ae42bdad783f4feec0cd", "0x8d8a0ac800b89b8d4060360b24b7abacbdf1e241",
+    "0x70d17923dba944f85b981dab254b627d6d372886", "0x112c5698e6ce9ab30ad4654de9005c2481f3e333", "0x59289466e98725777391277ddc8b0f1608da1390", "0xbaa7051907dc8f431771ccd1886dcd8efb26f291"
 ]
 eth_wallet_idx = 0
 
 def gen_eth() -> str:
     global eth_wallet_idx
-    # Only use the real whale wallets for the first 8 calls to guarantee they appear
-    # in the shared identifiers and key actors, then fallback to random to prevent mass linking
-    if eth_wallet_idx < 8:
-        wallet = REAL_ETH_WALLETS[eth_wallet_idx % len(REAL_ETH_WALLETS)]
-        eth_wallet_idx += 1
-        return wallet
-    return "0x" + "".join(random.choices("0123456789abcdef", k=40))
+    wallet = REAL_ETH_WALLETS[eth_wallet_idx % len(REAL_ETH_WALLETS)]
+    eth_wallet_idx += 1
+    return wallet
 
 
 def gen_email_hash() -> str:

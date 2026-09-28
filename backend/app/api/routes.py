@@ -45,7 +45,7 @@ def scan_crypto_wallet(wallet_address: str):
         if not wallet_address.startswith("0x"):
             return {"error": "Invalid Address", "message": "Only Ethereum (0x) wallets are supported for this live trace."}
             
-        url_bal = f"https://api.etherscan.io/api?module=account&action=balance&address={wallet_address}&tag=latest&apikey={ETHERSCAN_API_KEY}"
+        url_bal = f"https://api.etherscan.io/v2/api?chainid=1&module=account&action=balance&address={wallet_address}&tag=latest&apikey={ETHERSCAN_API_KEY}"
         req_bal = urllib.request.Request(url_bal, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req_bal) as response:
             data_bal = json.loads(response.read().decode())
@@ -53,7 +53,7 @@ def scan_crypto_wallet(wallet_address: str):
         balance_wei = int(data_bal.get("result", 0)) if data_bal.get("status") == "1" else 0
         balance_eth = balance_wei / 10**18
         
-        url_tx = f"https://api.etherscan.io/api?module=account&action=txlist&address={wallet_address}&startblock=0&endblock=99999999&page=1&offset=3&sort=desc&apikey={ETHERSCAN_API_KEY}"
+        url_tx = f"https://api.etherscan.io/v2/api?chainid=1&module=account&action=txlist&address={wallet_address}&startblock=0&endblock=99999999&page=1&offset=3&sort=desc&apikey={ETHERSCAN_API_KEY}"
         req_tx = urllib.request.Request(url_tx, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req_tx) as response:
             data_tx = json.loads(response.read().decode())
@@ -403,4 +403,5 @@ def export_dossier(actor_id: str, db: Session = Depends(get_db)):
 def get_intercepts(db: Session = Depends(get_db)):
     rows = db.execute(text("SELECT p.raw_text, p.platform, p.timestamp, a.handle FROM posts p JOIN aliases a ON p.alias_id = a.id ORDER BY RANDOM() LIMIT 15")).fetchall()
     return [{"text": r.raw_text, "platform": r.platform, "timestamp": r.timestamp, "handle": r.handle} for r in rows]
+
 
